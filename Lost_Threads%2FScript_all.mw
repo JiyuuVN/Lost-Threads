@@ -1,0 +1,4292 @@
+[[Категория:Lost Threads]]
+<poem>
+init:
+    image bg cemetery = "Cemetery2.png"
+    image bg alleyway = "Alleyway2.png"
+    image bg alleyway2 = "Alleyway22.png"
+    image bg bar = "Bar2.png"
+    image bg street = "Street2.png"
+    image bg street2 = "Street22.png"
+    image bg black = "Black2.png"
+    image bg bedroom = "Bedroom2.png"
+    image bg bedroom blur = "Bedroom_blur2.png"
+    image bg white = "White2.png"
+    image bg hill = "Hill2.png"
+    image bg hill night = "Hill_night2.png"
+    image bg bar flashback = "Bar_flashback2.png"
+    image bg plymouth = "Plymouth2.png"
+    image bg plymouth house = "Plymouth_house2.png"
+    image bg woods1 = "Woods12.png"
+    image bg woods2 = "Woods22.png"
+    image bg woods3 = "Woods32.png"
+    image bg tavern = "ColonialTavern2.png"
+    image bg camp = "Camp2.png"
+    image bg tent = "Tent2.png"
+    image bg bridge = "Bridge2.png"
+    image bg pond = "Pond2.png"
+    image bg pond2 = "Pond22.png"
+    image bg treetop = "Treetop2.png"
+    image bg cemetery2 = "Cemetery22.png"
+    image bg docks = "Docks2.png"
+    image bg bar2 = "Bar22.png"
+    image bg timessquare = "TimesSquare2.png"
+    image bg cinema = "Cinema2.png"
+    image bg bread = "Bread2.png"
+    image bg whiskey = "Whiskey2.png"
+    image one = "012.png"
+    image two = "022.png"
+    image three = "032.png"
+    image four = "042.png"
+    image five = "052.png"
+    image six = "062.png"
+    image seven = "072.png"
+    image eight = "082.png"
+    image nine = "092.png"
+    image ten = "102.png"
+    image eleven = "112.png"
+    image twelve = "122.png"
+    image m embarrassed = "melissa_embarrassed2.png"
+    image m surprised = "melissa_surprised2.png"
+    image m shocked = "melissa_shocked2.png"
+    image m happy = "melissa_happy2.png"
+    image m interested = "melissa_interested2.png"
+    image m angry = "melissa_angry2.png"
+    image m yelling = "melissa_yelling2.png"
+    image m pointing = "melissa_pointing2.png"
+    image m smug = "melissa_smug2.png"
+    image m thinking = "melissa_thinking2.png"
+    image m embarrassed blur = "melissa_embarrassed_blur2.png"
+    image m smug flashback = "melissa_smug_flashback2.png"
+    image magic_circle = "magic2.png"
+    image snowblossom = SnowBlossom(anim.Filmstrip("sakura2.png", (20, 20), (2, 1), .15), fast=True)
+    image bg fog = "Fog2.png"
+    image bg pool = "PoolParty2.png"
+    image bg tree = "Tree2.png"
+    $ j = Character(u'Джош', color="00ee00", show_two_window=True)
+    $ jslow = Character(u'Джош', color="00ee00", what_slow_cps=20, show_two_window=True)
+    $ m = Character(u'Мелисса', color="#C71585", show_two_window=True)
+    $ mslow = Character('Мелисса', color="#C71585", what_slow_cps=20, show_two_window=True)
+    $ m1 = Character(u'Девушка', color="#C71585", show_two_window=True)
+    $ flash = Fade(.25, 0, .50, color="b22222")
+    $ flash2 = Fade(.25, 0, .50, color="fffafa")
+    $ priest = Character(u'Священник', color ="#F5F5F5", show_two_window=True)
+    $ bartender = Character(u'Бармен', color ="#F5F5F5", show_two_window=True)
+    $ slow = Character(None, color ="#F5F5F5", what_slow_cps=20)
+    $ p = Character(u'Проктор', color ="#F5F5F5", show_two_window=True)
+    $ pwoman = Character(u'Пуританка', color ="#F5F5F5", show_two_window=True)
+    $ pman = Character(u'Пуританин', color ="#F5F5F5", show_two_window=True)
+    $ goody = Character(u'Тётушка', color ="#F5F5F5", show_two_window=True)
+    $ b = Character(u'Брэнфорд', color ="#F5F5F5", show_two_window=True)
+    $ teleport = ImageDissolve("id_teleport2.png", 1.0, 0)
+    $ s1 = Character(u'Солдат 1', color ="#F5F5F5", show_two_window=True)
+    $ s2 = Character(u'Солдат 2', color ="#F5F5F5", show_two_window=True)
+    $ f1 = Character(u'Крестьянин 1', color ="#F5F5F5", show_two_window=True)
+    $ f2 = Character(u'Крестьянин 2', color ="#F5F5F5", show_two_window=True)
+    $ c = Character(u'Коннор', color ="ff1493", show_two_window = True)
+    $ o = Character(u'Пожилой мужчина', color ="#F5F5F5", show_two_window = True)
+    $ o2 = Character(u'Старик', color ="ff3030", show_two_window=True)
+    $ w = Character(u'Женщина', color ="#f5f5f5", show_two_window = True)
+    $ g = Character(u'Глэдис', color ="cd0000", show_two_window = True)
+    $ circleirisin = ImageDissolve("id_circleiris2.png", 1.0, 8, reverse=True)
+    $ d = Character(u'Пьяный мужчина', color="ffd700", show_two_window = True)
+    $ lg = Character(u'Маленькая девочка', color="fffafa", show_two_window = True)
+    $ mo = Character(u"Мать девочки", color="fffafa", show_two_window = True)
+    $ nvlj = NVLCharacter("Джошуа", color="#00ee00")
+    $ nvlt = NVLCharacter(None, color="fffafa")
+    $ config.adv_nvl_transition = dissolve
+    $ config.nvl_adv_transition = dissolve
+    $ c2 = Character('Коннор, Jr. Jr.', color="ff3030", show_two_window = True)
+    
+    $ top = Position(xalign=0.5, yalign=0.5)
+    
+    
+    image nineteenfivebig = Text("1905", color="fffafa", size=+50)
+    image nineteenfour = Text("1904", color="fffafa")
+    image nineteenthree = Text("1903", color="fffafa")
+    image nineteentwo = Text("1902", color="fffafa")
+    image nineteenone = Text("1901", color="fffafa")
+    image nineteenhundred = Text("1900", color="fffafa")
+    image eighteenninetyfive = Text("1895", color="fffafa")
+    image eighteenninety = Text("1890", color="fffafa")
+    image eighteeneighty = Text("1880", color="fffafa")
+    image eighteenseventy = Text("1870", color="fffafa")
+    image eighteensixty = Text("1860", color="fffafa")
+    image eighteenfifty = Text("1850", color="fffafa")
+    image eighteenforty = Text("1840", color="fffafa")
+    image eighteenthirty = Text("1830", color="fffafa")
+    image eighteentwenty = Text("1820", color="fffafa")
+    image eighteenten = Text("1810", color="fffafa")
+    image eighteenhundred = Text("1700", color="fffafa")
+    image seventeenninety = Text("1790", color="fffafa")
+    image seventeeneighty = Text("1780", color="fffafa")
+    image seventeenseventy = Text("1770", color="fffafa")
+    image seventeensixty = Text("1760", color="fffafa")
+    image seventeenfifty = Text("1750", color="fffafa")
+    image seventeenforty = Text("1740", color="fffafa")
+    image seventeenthirty = Text("1730", color="fffafa")
+    image seventeentwenty = Text("1720", color="fffafa")
+    image seventeenten = Text("1710", color="fffafa")
+    image seventeenhundred = Text("1700", color="fffafa")
+    image sixteenninety = Text("1690", color="fffafa")
+    image sixteeneighty = Text("1680", color="fffafa")
+    image sixteenseventy = Text("1670", color="fffafa")
+    image seventeenseventyone = Text("1771", color="fffafa")
+    image seventeenseventytwo = Text("1772", color="fffafa")
+    image seventeenseventythree = Text("1773", color="fffafa")
+    image seventeenseventyfour = Text("1774", color="fffafa")
+    image seventeenseventyfive = Text("1775", color="fffafa")
+    image seventeenseventysix = Text("1776", color="fffafa")
+    image seventeenseventyseven = Text("1777", color="fffafa")
+    image seventeenseventyeightbig = Text("1778", color="fffafa", size=+50)
+    image seventeenseventynine = Text("1779", color="fffafa")
+    image seventeeneightyone = Text("1781", color="fffafa")
+    image seventeeneightytwo = Text("1782", color="fffafa")
+    image seventeeneightythree = Text("1783", color="fffafa")
+    image seventeeneightyfour = Text("1784", color="fffafa")
+    image seventeeneightyfive = Text("1785", color="fffafa")
+    image seventeeneightysix = Text("1786", color="fffafa")
+    image seventeeneightyseven = Text("1787", color="fffafa")
+    image seventeeneightyeight = Text("1788", color="fffafa")
+    image seventeeneightynine = Text("1789", color="fffafa")
+    image seventeenninetyone = Text("1791", color="fffafa")
+    image seventeenninetytwo = Text("1792", color="fffafa")
+    image seventeenninetythree = Text("1793", color="fffafa")
+    image seventeenninetyfour = Text("1794", color="fffafa")
+    image seventeenninetyfive = Text("1795", color="fffafa")
+    image seventeenninetysix = Text("1796", color="fffafa")
+    image seventeenninetyseven = Text("1797", color="fffafa")
+    image seventeenninetyeight = Text("1798", color="fffafa")
+    image seventeenninetynine = Text("1799", color="fffafa")
+    image eighteenone = Text("1801", color="fffafa")
+    image eighteentwo = Text("1802", color="fffafa")
+    image eighteenthree = Text("1803", color="fffafa")
+    image eighteenfour = Text("1804", color="fffafa")
+    image eighteenfivebig = Text("1805", color="fffafa", size=+50)
+    image eighteensix = Text("1806", color="fffafa")
+    image eighteenseven = Text("1807", color="fffafa")
+    image eighteeneight = Text("1808", color="fffafa")
+    image eighteennine = Text("1809", color="fffafa")
+    image eighteenseventyone = Text("1871", color="fffafa")
+    image eighteenseventytwo = Text("1872", color="fffafa")
+    image eighteenseventythree = Text("1873", color="fffafa")
+    image eighteenseventyfour = Text("1874", color="fffafa")
+    image eighteenseventyfivebig = Text("1875", color="fffafa", size=+50)
+    image sixteensixty = Text("1660", color="fffafa")
+    image sixteenfiftynine = Text("1659", color="fffafa")
+    image sixteenfiftyeight = Text("1658", color="fffafa")
+    image sixteenfiftyseven = Text("1657", color="fffafa")
+    image sixteenfiftysix = Text("1656", color="fffafa")
+    image sixteenfiftyfivebig = Text("1655", color="fffafa", size=+50)
+    image eighteenseventysix = Text("1876", color="fffafa")
+    image eighteenseventyseven = Text("1877", color="fffafa")
+    image eighteenseventyeight = Text("1878", color="fffafa")
+    image eighteenseventynine = Text("1879", color="fffafa")
+    image nineteenten = Text("1910", color="fffafa")
+    image nineteentwenty = Text("1920", color="fffafa")
+    image nineteenthirty = Text("1930", color="fffafa")
+    image nineteenforty = Text("1940", color="fffafa")
+    image nineteenfifty = Text("1950", color="fffafa")
+    image nineteensixty = Text("1960", color="fffafa")
+    image nineteenseventy = Text("1970", color="fffafa")
+    image nineteeneighty = Text("1980", color="fffafa")
+    image nineteenninety = Text("1990", color="fffafa")
+    image nineteenninetyfive = Text("1995", color="fffafa")
+    image nineteenninetysix = Text("1996", color="fffafa")
+    image nineteenninetyseven = Text("1997", color="fffafa")
+    image nineteenninetyeight = Text("1998", color="fffafa")
+    image nineteenninetynine = Text("1999", color="fffafa")
+    image twothousand = Text("2000", color="fffafa")
+    image twothousandone = Text("2001", color="fffafa")
+    image twothousandtwo = Text("2002", color="fffafa")
+    image twothousandthreebig = Text("2003", color="fffafa", size=+50)
+    image nineteentwentynine = Text("1929", color="fffafa")
+    image nineteentwentyeight = Text("1928", color="fffafa")
+    image nineteentwentyseven = Text("1927", color="fffafa")
+    image nineteentwentysix = Text("1926", color="fffafa")
+    image nineteentwentyfivebig = Text("1925", color="fffafa")
+    image nineteentwentyfour = Text("1924", color="fffafa")
+    image nineteentwentythree = Text("1923", color="fffafa")
+    image nineteentwentytwo = Text("1922", color="fffafa")
+    image nineteentwentyone = Text("1921", color="fffafa")
+    image nineteennineteen = Text("1919", color="fffafa")
+    image nineteeneighteen = Text("1918", color="fffafa")
+    image nineteenseventeen = Text("1917", color="fffafa")
+    image nineteensixteen = Text("1916", color="fffafa")
+    image nineteenfifteen = Text("1915", color="fffafa")
+    image nineteenfourteen = Text("1914", color="fffafa")
+    image nineteenthirteen = Text("1913", color="fffafa")
+    image nineteentwelve = Text("1912", color="fffafa")
+    image nineteeneleven = Text("1911", color="fffafa")
+    image nineteennine = Text("1909", color="fffafa")
+    image nineteeneight = Text("1908", color="fffafa")
+    image nineteenseven = Text("1907", color="fffafa")
+    image nineteensix = Text("1906", color="fffafa")
+    
+    
+    image screen1 = Text("I find myself in front of the dock.", color="fffafa")
+    image screen2 = Text("The rain has stopped.", color="fffafa")
+    image screen3 = Text(".........And where did these cherry blossoms come from............?", color="fffafa")
+    image screen4 = Text("Mel...", color="fffafa")
+    image screen5 = Text("What did I get myself into...", color="fffafa")
+    image screen6 = Text("Wait. Is that...?", color="fffafa")
+    image screen7 = Text("Mel...?", color="00ee00")
+    image screen8 = Text("......", color="#C71585")
+    image screen9 = Text("Mel!", color="00ee00")
+    image screen10 = Text("Stop...", color="C71585")
+    image screen11 = Text("I already know you hate me.", color="C71585")
+    image screen12 = Text("But please don't come any closer...", color="C71585")
+    image screen13 = Text("Please...", color="C71585")
+    image screen14 = Text("Mel...", color="00ee00")
+    image screen15 = Text("She's alive.", color="00ee00")
+    image screen16 = Text("Gladys is alive.", color="00ee00")
+    image screen17 = Text("Eh?", color="C71585")
+    image screen18 = Text("That can't be!", color="C71585")
+    image screen19 = Text("I saw that buggy go off the bridge!", color="C71585")
+    image screen20 = Text("I saw it...", color="C71585")
+    image screen21 = Text("Gladys wasn't on it.", color="00ee00")
+    image screen22 = Text("Stop trying to make me feel better.", color="C71585")
+    image screen23 = Text("....Stubborn as always.", color="fffafa")
+    image screen24 = Text("Let's see if this works...", color="fffafa")
+    image screen25 = Text("Lying isn't gonna make thin--", color="C71585")
+    image screen26 = Text("Lying isn't gonna make thin-- mmmmmfffffff!", color="C71585")
+    image screen27 = Text("Uh oh...", color="fffafa")
+    image screen28 = Text("You jerk, what was that for?!?", color="C71585")
+    image screen29 = Text("To shut you up!", color="00ee00")
+    image screen30 = Text("I guess I really haven't been very clear...", color="00ee00")
+    image screen31 = Text("I don't hate you.", color="00ee00")
+    image screen32 = Text("I think you're hot.", color="00ee00")
+    image screen33 = Text("Wait, that didn't...", color="fffafa")
+    image screen34 = Text("Come out right...", color="fffafa")
+    image screen35 = Text("At all...", color="fffafa")
+    image screen36 = Text("You inconsiderate JERK!", color="C71585")
+    image screen37 = Text("Hell hath no fury like a woman scorned...", color="00ee00")
+    image credits1 = Text("Character Design:", color="fffafa")
+    image credits2 = Text("tsuina (http://tomoko.denpa.org/)", color="fffafa")
+    image credits3 = Text("Sound FX:", color="fffafa")
+    image credits4 = Text("OSA © 2006 (http://osabisi.sakura.ne.jp/m2/)", color="fffafa")
+    image credits5 = Text("Background Music:", color="fffafa")
+    image credits6 = Text("© Geneon Entertainment", color="fffafa")
+    image credits7 = Text("© Japanimation", color="fffafa")
+    image credits8 = Text("© Yuki Kajiura", color="fffafa")
+    image credits81 = Text("© Magome Togoshi", color="fffafa")
+    image credits82 = Text("© Shiro Sagisu", color="fffafa")
+    image credits9 = Text("Nickelback - If Everyone Cared", color="fffafa")
+    image credits10 = Text("Walter Murphy - A Fifth of Beethoven", color="fffafa")
+    image credits11 = Text("Director:", color="fffafa")
+    image credits12 = Text("roofclimber1", color="fffafa")
+    image credits13 = Text("Producer:", color="fffafa")
+    image credits14 = Text("roofclimber1", color="fffafa")
+    image credits15.1 = Text("All sounds used in the production are only here for entertainment purposes.", color="ff1493")
+    image credits15.2 = Text("I do not own any of the sound effects, or even the pictures, really.", color="ff1493")
+    image credits15.3 = Text("I only own the script.", color="ff1493")
+    image credits16 = Text("And Thanks to the Ren'Py Team for the Programming Script", color="fffafa")
+    image credits17 = Text("-fin-", color="fffafa")
+    image moviescreen01 = Text("AH!!!!", color="00ee00")
+    image moviescreen02 = Text("The people in the seats in front of me turn in annoyance.", color="fffafa")
+    image moviescreen03 = Text("Ehehe... It's nothing...", color="00ee00")
+    image moviescreen04 = Text("Thank God it's dark in here and they can't see my clothes.", color="fffafa")
+    image moviescreen05 = Text("But why aren't they reacting like I am!?!?", color="fffafa")
+    image moviescreen06 = Text("There are people moving on the screen in the front!", color="fffafa")
+    image moviescreen07 = Text("...", color="fffafa")
+    image moviescreen08 = Text("What is this...?", color="fffafa")
+    image moviescreen09 = Text("Maybe it's one of those motion pictures that they had back in my time...", color="fffafa")
+    image moviescreen10 = Text("But there's sound... and color!", color="fffafa")
+    image moviescreen11 = Text("...", color="fffafa")
+    image moviescreen12 = Text("Is this based on reality?", color="fffafa")
+    image moviescreen13 = Text("....Wow, so corruption exists even in the future...", color="fffafa")
+    image moviescreen14 = Text("Maybe I should slip out of here now...", color="fffafa")
+
+
+label start:
+    
+    stop music
+    
+    scene one
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    "16 июля, 1905 года."
+    
+    play music "funeral.mp3"
+    
+    "На улице льёт дождь."
+    
+    play sound "rain01.mp3"
+
+    scene bg cemetery
+    with fade
+
+    "Как и неделю назад."
+    
+    "Когда это произошло..."
+    
+    scene bg cemetery
+    with flash
+    
+    "Мне сказали, что она утонула."
+    
+    "Её коляска вместе с лошадьми соравлась с Бруклинского моста в Нью-Йорке и упала в реку."
+    
+    priest " Сегодня мы собрались, чтобы проститься..."
+    
+    "Тела они так и не нашли. Только коляску, которую прибило к берегу ниже по течению..."
+    
+    priest " Она ушла слишком рано, в самом расцвете сил..."
+    
+    "Через неделю мы должны были пожениться..."
+    
+    "Обстоятельства смерти до конца не известны. Судя по всему, на мосту была ещё одна коляска."
+    
+    "Было 9:03 утра, когда они пришли, чтобы сообщить мне..."
+    
+    "Священник перестал бубнить свою речь."
+    
+    "Люди начали понемногу расходиться."
+    
+    "Думаю, мне тоже пора."
+    
+    scene bg street2
+    with fade
+    
+    "А дождь всё идёт."
+    
+    play sound "rain01.mp3"
+    
+    "Какая мерзкая погода..."
+    
+    "Как мерзко мне..."
+    
+    j "За что мне всё это!!!"
+    
+    "Люди на улице стали на меня оборачиваться..."
+    
+    "Я скользнул в переулок, чтобы спастись от любопытных взглядов..."
+    
+    scene bg alleyway2
+    with fade
+    
+    "В переулке пусто..."
+    
+    "Пусто, как в моём сердце."
+    
+    j "Почему Глэдис умерла?!"
+    
+    j "Она сумела достучаться до меня... Сделать меня, наконец, целым... Она..."
+    
+    "О, похоже на бар!"
+    
+    j "Ура! ПИВО!"
+    
+    play sound "door03.wav"
+    
+    "..."
+    
+    scene bg bar
+    with fade
+    stop music
+    play music "members only.mp3"
+    
+    "В баре тепло и накурено."
+    
+    j "Налей мне мартини, взболтай, но не размешивай."
+    
+    "«Что я несу...»"
+    
+    "Я сажусь на один из стульев у стойки."
+    
+    "Рядом сидит какая-то девушка."
+    
+    show m embarrassed
+    with dissolve
+    
+    m1 "..."
+    
+    "Она выглядит... подавленной..."
+    
+    j "Эй, мисс, не хотите заглянуть ко мне в гости?"
+    
+    "Она окинула меня презрительным взглядом."
+    
+    show m angry
+    with dissolve
+    
+    "Наверное, она всё-таки не подавлена..."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Кем вы себя возомнили?"
+    
+    show m angry
+    with dissolve
+    
+    bartender "Эээ, сэр, ваш напиток... Взболтать, но не размешивать?.. "
+    
+    play sound "glass.wav"
+    
+    "Бармен поспешно удаляется, предчувствуя надвигающуюся бурю..."
+    
+    "Может, и мне стоит так поступить..."
+    
+    "Я было принялся уходить..."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "А ну стоять!"
+    
+    "Чёрт."
+    
+    m1 "Эй, я к вам обращаюсь."
+    
+    "Чёрт, чёрт..."
+    
+    m1 "Знаете, Я НЕНАВИЖУ таких, как вы. Вы думаете, что можете когда вам угодно подцепить любоую девушку. Сегодня, «мистер», ты не на ту нарвался!"
+    
+    show m angry
+    with dissolve
+    
+    "...ну почему я?"
+    
+    "Подождите-ка.  С какой стати я позволяю этой девушке так себя со мной вести?  Я покажу ей, КТО Я такой!"
+    
+    j "Постой, дай мне объяснить"
+    
+    "Сейчас, я сражу её наповал!"
+    
+    j "Недавно, умерла моя невеста, и теперь, я пытаюсь утопить своё горе в мартини и женщинах... ПРОШУ,НЕ УБИВАЙ МЕНЯ!"
+    
+    "Упс."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Прибереги свои объяснения для кого-нибудь другого, у меня слишком сильно болит голова, чтобы тебя слушать."
+    
+    show m thinking
+    with dissolve
+    
+    "Она откинулась на спинку сиденья."
+    
+    "Кажется, всё обошлось."
+    
+    "Внезапно, она выпрямилась на своём стуле."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Говоришь, твоя невеста умерла?"
+    
+    show m angry
+    with dissolve
+    
+    "Малыш,  другая симпатичная плаксивая девушка..."
+    
+    j "Ну, её лошадь и коляска... упали с моста..."
+    
+    show m shocked
+    with dissolve
+    
+    m1 "Ох..."
+    
+    show m embarrassed
+    with dissolve
+    
+    "Ммммммм, неловкая тишина. Обожаю её."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Ну, прими мои сожаления, так лучше?"
+    
+    show m embarrassed
+    with dissolve
+    
+    j "..."
+    
+    m1 "..."
+    
+    j "..."
+    
+    m1 "..."
+    
+    j "..."
+    
+    "...забавно..."
+    
+    show m yelling
+    with dissolve
+    
+    m1 "Ладно, если это тебя обрадует, меня зовут Мелисса Темпс, но ты можешь звать меня Мэлл."
+    
+    show m angry
+    with dissolve
+    
+    "Мне без разницы..."
+    
+    j "Меня зовут Джошуа МакДермот, но ты будешь называть меня так, как я тебе скажу, и я говорю - Джошуа."
+    
+    "Ах, разве я не привлекателен для женщин?  Поэтому, люди зовут меня..."
+    
+    play sound "punch.wav"
+    show bg bar
+    with hpunch
+    
+    j "Aррр! КАКОГО ЧЁРТА НАДО БЫЛО ЭТО ДЕЛАТЬ?"
+    
+    show m smug
+    with dissolve
+    
+    m "Чтобы над тобой подурачиться."
+    
+    "Какого..."
+    
+    play sound "punch.wav"
+    show bg bar
+    with vpunch
+    show m smug
+    
+    m "А вот это - потому что ты мне не нравишься."
+    
+    "Ахх... кажется, в глазах темнеет..."
+    
+    show bg black
+    with fade
+    
+    "Ах, ты дрянь..."
+    
+    hide m smug
+    with dissolve
+    stop music
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene two
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    play music "morning.mp3"
+    
+    $ renpy.pause(1.0)
+    
+    scene bg bedroom blur
+    show m embarrassed blur
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    hide m embarrassed blur
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg bedroom blur
+    show m embarrassed blur
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    hide m embarrassed blur
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg bedroom blur
+    show m embarrassed blur
+    with dissolve
+    
+    "Где... я?"
+    
+    hide m embarrassed blur
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg bedroom blur
+    show m embarrassed blur
+    with dissolve
+    
+    "Я..."
+    
+    scene bg bedroom blur
+    show m embarrassed blur
+    with flash2
+    
+    "Оуууу... моя голова... агх!"
+    
+    m "Вставай давай, ленивый идиот!"
+    
+    "Э?"
+    
+    scene bg bedroom
+    show m angry
+    with dissolve
+    stop music
+    play music "mistake.mp3"
+    
+    j "ЭЭЭ????"
+    
+    "Зрение проясняется, я лежу на удобной кровати..."
+    
+    slow "без одежды."
+    
+    jslow "............."
+    
+    "Неужели, этой ночью я сделал что-то такое, о чём придётся сожалеть??"
+    
+    "..."
+    
+    "Хммм, судя по всему, одежда этой девушки всё ещё на ней..."
+    
+    "Стоп, эта девушка..."
+    
+    scene bg bar flashback
+    show m smug flashback
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg bedroom
+    show m angry
+    with dissolve
+    
+    j "....... {w=2} ТЫ!!!"
+    
+    j "Что ты сделал со мной прошлой ночью!?!?!?!?!"
+    
+    show m surprised
+    with dissolve
+    
+    m "...э?"
+    
+    j "МОЯ ДЕВСТВЕННОСТЬ!!!!"
+    
+    show m yelling
+    with dissolve
+    
+    mslow "....... ты идиот."
+    
+    show m pointing
+    with dissolve
+    
+    "Она подняла руки, будто собралась побить меня..."
+    
+    "О нет, мамочки....."
+    
+    "Я закрыл глаза."
+    
+    scene bg black
+    hide m pointing
+    with dissolve
+    stop music
+    play music "morning.mp3"
+    
+    slow "..."
+    
+    "Э?"
+    
+    "Мне вдруг показалось, будто я прикрыт тёплой одеждой."
+    
+    "Разве кто-нибудь может так быстро одеть другого человека...?"
+    
+    "Я осторожно приоткрыл один глаз."
+    
+    scene bg bedroom
+    show m smug
+    with dissolve
+    
+    "Я в шоке."
+    
+    "На мне была моя одежда, мокрая от вчерашнего дождя, правда, теперь она была идеально сухая."
+    
+    "Но, что куда более важно..."
+    
+    "Та невыносимая женщина мне ухмыляется."
+    
+    m "Долго ещё будешь ан меня пялиться?"
+    
+    "Я немного бормочу."
+    
+    show m pointing
+    with dissolve
+    
+    m "Кажется, все формальности остались во вчерашнем дне."
+    
+    show m interested
+    with dissolve
+    
+    m "Я Мелисса Темпс, маг-самоучка и постоянный член Гильдии Магов Нью-Йорка."
+    
+    slow ".............."
+    
+    scene bg black
+    hide m interested
+    with dissolve
+    
+    m "Э-эй, не падай опять в обморок при виде меня!"
+    
+    "Бесполезно... уже ушла, даже не попрощавшишь ...... Маги.... Хахаха.... Должно быть, я не разглядел...."
+    
+    play sound "punch.wav"
+    show bg bedroom
+    with vpunch
+    show m smug
+    
+    "Ооооо... Пошёл я отсюда."
+    
+    "Она положила на меня глаз."
+    
+    m "Ну, это моя вина {w=1}{i}is{/i} {w=1}что ты потерял сознание в том месте..."
+    
+    "Проклятье, и правда ведь..."
+    
+    m "Я исполню одно твоё жение, за просто так.  Всё, что угодно."
+    
+    j "Э?"
+    
+    "Хехехе... Ты сама вырыла себе могилу, мисси."
+    
+    j "В таком случае, я хочу чтобы ты..."
+    
+    m "Всё, ЗА ИСКЛЮЧЕНИЕМ тех грязных вещей, о которых осмеливается мечтать твой жалкий ум."
+    
+    "Чёрт."
+    
+    slow "..."
+    
+    "Подожди."
+    
+    stop music
+    
+    "Она разрешила загадать что угодно.  И я могу загадать что угодно..."
+    
+    "Хочу изменить кое-что..."
+    
+    play music "memory.mp3"
+    
+    j "Можешь вернуть меня назад во времени?"
+    
+    show m surprised
+    with dissolve
+    
+    "Теперь, её очередь быть удивлённой."
+    
+    show m shocked
+    with dissolve
+    
+    m "Ну... Ну конечно же, я могу.  Глупый вопрос. Я имею ввиду, что я квалифицированный маг, и всё такое..."
+    
+    show m embarrassed
+    with dissolve
+    
+    j "В таком случае, я хочу, чтобы ты вернула меня немного раньше того момента, когда Глэдис умерла. Я хочу знать. Это единственный способ предотвратить её смерть."
+    
+    m "Думаю, это можно будет уладить..."
+    
+    "Внезапно, она приобрела серьёзный вид."
+    
+    show m pointing
+    with dissolve
+    
+    m "Для начала, мне нужно уточнить природу того времени, в которое тебя пошлю."
+    
+    m "Время сделано из нитей, даже можешь назвать их цепочками нитей, если хочешь. {w=2} Каждый момент времени  - один из концов нити. {w=2} Чтобы переместиться в прошлое к определённому моменту времени, мы должны потянуть за ту ниточку, которая и приведёт нас к моменту, когда Глэдис ещё была жива."
+    
+    m "Понял?"
+    
+    "Я не идиот."
+    
+    show m thinking
+    with dissolve
+    
+    m "Вот, держи меня за руку, я не хочу, чтобы ты потерялся."
+    
+    show m embarrassed
+    with dissolve
+    
+    m "Отлично. Теперь, позволь мне вызвать эти нити..."
+    
+    "..."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+    
+    "Suddenly, there is a blinding flash of light."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+
+    $ renpy.pause(1)
+
+    hide magic_circle
+    
+    play sound "blast.mp3"
+    scene bg white
+    hide m embarrassed
+    with dissolve
+    
+    slow "And there is... {w=1}no more."
+    
+    stop music
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene three
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    show nineteenfivebig
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg black
+    show nineteenfour
+    with dissolve
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenthree
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwo
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenhundred
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenninetyfive
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenninety
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteeneighty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventy
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteensixty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenfifty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenforty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenthirty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteentwenty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenten
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenhundred
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninety
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneighty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventy
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeensixty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenfifty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenforty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenthirty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeentwenty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenten
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenhundred
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenninety
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteeneighty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenseventy
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteensixty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenfiftynine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenfiftyeight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenfiftyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenfiftysix
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenfiftyfivebig
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    "Я сижу на мягкой траве."
+    
+    play music "grassyknoll.mp3"
+    scene bg hill
+    with dissolve
+    
+    "Ах, какой приятный свежий воздух... Мои лёгкие словно очистились."
+    
+    "Но, почему я опять тут?"
+    
+    slow "........"
+    
+    j "Мэл?"
+    
+    "Слева, послышался шорох."
+    
+    show m embarrassed
+    with dissolve
+    
+    m "Эй..."
+    
+    "Хмм..."
+    
+    j "В какой части Нью Йорка мы сейчас находимся?"
+    
+    mslow "..."
+    
+    mslow "..... Мне нужно тебе кое-что сказать..."
+    
+    j "И что же?"
+    
+    "Надеюсь, это кое-что будет хорошим, да ведь?"
+    
+    mslow "Ну... Вообще-то, я не заканчивала никакой школы..."
+    
+    j "Ну ведь, ты всё ещё маг с лицензией, верно?"
+    
+    mslow "...Ну, Я... меня типо выгнали из школы..."
+    
+    mslow "И я... никогда не училась путешествовать во времени..."
+    
+    j "ЧТО!??!??!?"
+    
+    show m yelling
+    with dissolve
+    
+    m "Эй, я запомнила много хороших вещей из Магического Еженедельника, ясно?  Так что, я немного знакома с тем, чем мы, маги, занимаемся..."
+    
+    m "И вообще, разве не лучше познавать всё новое по личному опыту, нежели сидеть на нудных уроках?"
+    
+    jslow ". . . ."
+    
+    "Ну почему я..."
+    
+    j "Так ты знаешь, где именно мы находимся???"
+    
+    show m thinking
+    with dissolve
+    
+    m "Вообще-то да..."
+    
+    m "Мне кажется, мы переместились назад  лет этак на 250..."
+    
+    "Кажется, в этот самый момент, слёзы ручьём потекли из моих глаз..."
+    
+    m "А ещё, я не уверен, всё ещё ли мы в Нью Йорке..."
+    
+    "Теперь, эти ручьи соплей стекали уже в огромную лужу под моими ногами..."
+    
+    show m interested
+    
+    m "Но, в концеконцов, если мы найдём какого-нибудь человека где-нибудь по-близости, мы сможем узнать наше точное местонахождение."
+    
+    "Я был полным идиотом, когда загадал это желание."
+    
+    "Мы шли вдоль грязной дороги, надеясь встретить какое-нибудь разумное существо..."
+    
+    scene bg plymouth
+    hide m embarrassed
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    "Не уверен, что хочу здесь больеш находиться..."
+    
+    "Все эти люди выглядят так, будто сошли со страниц моего учебника по истории."
+    
+    "Кажется, я даже помню ту главу..."
+    
+    "Пуританцы..."
+    
+    j "Ты шутишь."
+    
+    show m thinking
+    with dissolve
+    
+    m "Что?"
+    
+    j "Мы находимся в одном из поселений этих самых Пуританцев. {w=1} 250 лет назад, как-никак."
+    
+    show m interested
+    with dissolve
+    
+    m "Идея. Давай побудем здесь, пока я не придумаю, что нам делать."
+    
+    j "*грохот*"
+    
+    "Очень даже мило ... разве нет... разгуливать по совершенно иному периоду времени."
+    
+    "Я издал пустой звук..."
+    
+    "Вот дерьмо."
+    
+    j "Люди идут."
+    
+    show m angry
+    with dissolve
+    
+    m "Знаю я, давай спрячемся здесь!"
+    
+    scene bg plymouth house
+    hide m angry
+    with dissolve
+    stop music
+    play music "antiquatedhouse.mp3"
+    
+    slow ".............."
+    
+    "Я слышу звуки рубящихся деревьев."
+    
+    play sound "swing.wav"
+    
+    $ renpy.pause(0.15)
+    
+    play sound "break.wav"
+    
+    $ renpy.pause(2.0)
+    
+    play sound "swing.wav"
+    
+    $ renpy.pause(0.15)
+    
+    play sound "break.wav"
+    
+    $ renpy.pause(2.0)
+    
+    "..."
+    
+    pwoman "Здравствуйте, Мистер Проктор!"
+    
+    p "Доброе утро, тётушка. {w=1} Уже побывали в церкви?"
+    
+    goody "Конечно.  Молитесь каждый день, и не попадёте в ад!"
+    
+    "Ё-моё... Эти люди..."
+    
+    p "В самом деле. А я пойду после обеда, как только нарублю достаточно дров."
+    
+    goody "Судя по всему, не плохая идея. Ну, хорошего вам дня."
+    
+    "Какие же они нудные... Нарубить дров и сходить в церковь... Им больше говорить не о чем?"
+    
+    j "(Тцццц! План уже придумала?)"
+    
+    show m angry
+    with dissolve
+    
+    m "(Нет!  Я скажу тебе, когда придумаю.  Полежи тут ещё немножечко.)"
+    
+    hide m angry
+    with dissolve
+    
+    "*сверкает*"
+    
+    "Эй, смотри. Какой-то другой мужчина идёт по дороге."
+    
+    pman "Доброго вам дня, Мистер Проктор."
+    
+    p "И вам хорошего дня, Губернатор Брэнфорд."
+    
+    b "Как поживает ваша семья?"
+    
+    "Слава Богу, что они не разговаривают о дровах и церкви."
+    
+    p "Отлично, они сейчас в церкви."
+    
+    "... Типун мне на язык."
+    
+    b "В этом году, урожай выглядит многообещающе.  После той-то ужасной зимы, что была пару лет назад..."
+    
+    p "Да, мы проделали долгий путь."
+    
+    "............... Всё глупее чем кажется..."
+    
+    b "Думаю, мне уже пора идти. Удачного вам дня!"
+    
+    j "(Спаси меняяяяяяяяяяяяяя!!!!)"
+    
+    show m interested
+    with dissolve
+    
+    m "(Кажется, я придумала, как нам вернуться назад.)"
+    
+    j "(СПАСИБО ТЕБЕ!!!)"
+    
+    "Я крепко обнял Мелиссу."
+    
+    show m angry
+    with dissolve
+    
+    "Она пристально на меня посмотрела."
+    
+    m "(Ну,  {w=1}Вперёд!)"
+    
+    "И я быстро вернусь в свой время."
+    
+    show m pointing
+    with dissolve
+    stop music
+    play music "memory.mp3"
+    
+    m "(Мы ухватимся за самую короткую нить, ведущую в будущее.  Таким образом, мы перепрыгнем через малый промежуток времени, и, в конечном счёте, опять окажемся в 1905 году,  как раз перед тем как решили переместиться во времени.)"
+    
+    j "(Это сработает?)"
+    
+    show m interested
+    with dissolve
+    
+    m "(Конечно!)"
+    
+    "Она взяла меня за руку."
+    
+    m "(Полетели!)"
+    
+    show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+    
+    "Я приготовился к очередному скачку во времени."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+
+    $ renpy.pause(1)
+
+    hide magic_circle
+    
+    play sound "blast.mp3"
+    scene bg white
+    hide m embarrassed
+    with dissolve
+    stop music
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene four
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    show sixteenfiftyfivebig
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg black
+    show sixteenfiftysix
+    with dissolve
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenfiftyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenfiftyeight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenfiftynine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteensixty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenseventy
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteeneighty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show sixteenninety
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenhundred
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenten
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeentwenty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenthirty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenforty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenfifty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeensixty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventy
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventyone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventytwo
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventythree
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventyfour
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventyfive
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventysix
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenseventyeightbig
+    with dissolve
+
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.5)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.3)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.2)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.5)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.1)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.4)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.2)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.2)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.5)
+    
+    "И вот, я опять на траве..."
+    
+    "Только на этот раз, я очнулся от звуков выстрелов."
+    
+    scene bg hill
+    show m shocked
+    with dissolve
+    
+    m "ПРЯЧЬСЯ! БЫСТРЕЕ!"
+    
+    scene bg woods1
+    hide m shocked
+    with teleport
+    play sound "run.wav"
+    
+    $ renpy.pause(0.3)
+    
+    scene bg woods2
+    with teleport
+    play sound "run.wav"
+    
+    $ renpy.pause(0.3)
+    
+    scene bg woods3
+    with teleport
+    play sound "run.wav"
+    
+    $ renpy.pause(0.5)
+    
+    play music "comfort.mp3"
+    
+    "Мы спрятались за гнилым бревном."
+    
+    "В маленьком ручейке."
+    
+    "Неведомо где."
+    
+    j "Почему мы..."
+    
+    "Я прервался."
+    
+    "Эта надоедливая девчёнка... схватилась за мою рубашку."
+    
+    "Хмм... Что я тут делаю..."
+    
+    j "Что это ты делаешь?"
+    
+    show m embarrassed
+    with dissolve
+    
+    m "А?"
+    
+    "Она резко отпустила рубашку."
+    
+    show m yelling
+    with dissolve
+    
+    m "Н-ничего, Я толкьо что свалилась, вот и все."
+    
+    show m angry
+    with dissolve
+    
+    j "Неужели самый злобный демон напуган до усрачки?"
+    
+    show m surprised
+    with dissolve
+    
+    m "Ты... "
+    
+    show m embarrassed
+    with dissolve
+    
+    m "Придурок..."
+    
+    hide m embarrassed
+    with dissolve
+    play sound "run.wav"
+    
+    "Вот дерьмо."
+    
+    "Всё было {i}слишком{/i} гладко."
+    
+    "Хмм..."
+    
+    "ну и что теперь..."
+    
+    "Я один среди деревьев..."
+    
+    "А вокруг меня, люди палят из ружьев."
+    
+    "И единственная, кто могла меня вернуть назад... свалила, обидившись на мой глупое замечание..."
+    
+    j "*сверк*"
+    
+    "Думаю, надо пойти поискать её."
+    
+    scene bg woods2
+    with dissolve
+    
+    "Я вижу людей."
+    
+    m "Уйди от меня!"
+    
+    "Э?"
+    
+    stop music
+    play music "mistake.mp3"
+    
+    show m yelling
+    with dissolve
+    
+    s1 "Хе-хе, смотри-ка что у нас есть."
+    
+    s2 "Кажется, она потерялась."
+    
+    hide m yelling
+    with dissolve
+    
+    "Гррр, те лузеры....."
+    
+    s1 "Давайте вернём её обратно в лагерь."
+    
+    s2 "Подожди, она одета не так как те соладты колонисты...  Она как-то странно одета."
+    
+    s1 "Мне без разницы.  Мы притащим её с собой.  The rest of the soldiers haven't had much fun in a while(Другая часть солдат, однажды, получила не особо много удовольствия???)!"
+    
+    show m yelling
+    with dissolve
+    
+    m "Подождите, не забирайте меня отсюда!"
+    
+    hide m yelling
+    with dissolve
+    
+    "Оба солдата ушли, таща за собой на верёвке Мелиссу."
+    
+    "Ничего хорошего."
+    
+    "Может, мне стоит пойти за подмогой???"
+    
+    "Я иду вдоль дороги."
+    
+    scene bg woods1
+    with dissolve
+    
+    "ТОЧНО!"
+    
+    "Здесь на земле лежит сумка."
+    
+    "И, к счатью для меня..."
+    
+    "Это сумка тех двоих солдат со сменной одеждой!"
+    
+    "Осталось только замаскироваться, переодевшись в это..."
+    
+    scene bg black
+    with dissolve
+    
+    play sound "change.wav"
+    
+    $ renpy.pause(1.0)
+    
+    scene bg woods1
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg hill
+    with dissolve
+    
+    slow "..........."
+    
+    "О, а вот и таверна!"
+    
+    stop music
+    
+    play sound "door03.wav"
+    
+    "..."
+    
+    scene bg tavern
+    with dissolve
+    play music "tavern.mp3"
+    
+    "Я сел за столик в углу комнаты."
+    
+    "Двое мужчин, сидящих через пару столов от меня, что-то бурно обсуждали."
+    
+    f1 "Британцы ущемляют наши права.  Я говорю, ущемляют."
+    
+    f1 "Да дак ущемляют...{w=1} как трава застилает землю!"
+    
+    "Э? Как это работает?"
+    
+    f2 "Согласен. Мы должны присоединиться к нашим горожанинам и пойти штурмом на их лагерь!  {w=1} Люди со всей страны уже готовы к битве... {w=1}Наш город один из немногих, кто не подчинился им!!!"
+    
+    f1 "Говорю тебе, мы сделаем это сегодня ночью! Встань, и начни созывать людей для восстания!  Восстанем гордо!  Восстанем с силой!"
+    
+    "... Так, стоп..."
+    
+    "Может, я могу использовать это как преимущество!  Если мы пойдём на шторм лагеря, может, я смогу спасти Мелиссу..."
+    
+    j "Я хочу присоединиться к вам!"
+    
+    "Эти двое посомтрели в мою сторону..."
+    
+    j "*сглотнул*"
+    
+    f1 "... Кто ты такой? Я никогда тебя прежде не видел... Ты новенький?"
+    
+    j "Ну да, вообще-то, я из соседнего города."
+    
+    f2 "А! Бруклин?"
+    
+    "Он сказал Бруклин!???!"
+    
+    "ДА Я ПОПАЛ В НУЖНОЕ ВРЕМЯ, В НУЖНЫЙ МОМЕНТ!"
+    
+    "Мысленно, я поблагодарил Мелиссу, что она хоть городом не промахнулась."
+    
+    j "Да, я из Бруклина."
+    
+    f1 "А, вижу."
+    
+    f2 "В таком случае, можешь присоединиться к нашей битве!"
+    
+    "Эти двое мужчин встали и вышли..."
+    
+    f1 "ЗАЖГИТЕ ФАКЕЛЫ!"
+    
+    f2 "ДОСТАНЬТЕ ОРУЖИЕ!!!"
+    
+    "Хммм... это плохо?"
+    
+    stop music
+    scene bg hill night
+    with dissolve
+    play music "Battle.mp3"
+    
+    "Наступил вечер."
+    
+    "Те двое мужчин стояли перед возбуждённой толпой."
+    
+    f1 "Сегодня, мы разгромим войска Британцев!  {w=1}Эти жестокие люди падут под нашим пылким наттиском!  {w=1}Ни один бессердечный Британский солдат не переживёт этот день, если не станет молить о том, что ноги его больше не будет на нашей земле!"
+    
+    "Хорошо сказал."
+    
+    "Мужчины начали плакать и махать ружьями... и вилами."
+    
+    "Толпа, с оглушающим рёвом понеслась вперёд."
+    
+    "Я последую за ними... буду держаться на безопасном расстоянии."
+    
+    scene bg camp
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.2)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.5)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.1)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.4)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.2)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.2)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.5)
+    
+    "Мамочки..."
+    
+    "Я не хочу умирать!"
+    
+    "Чёрт."
+    
+    "Я спрятался в палатке."
+    
+    stop music    
+    scene bg tent
+    with dissolve
+    play music "comfort.mp3"
+    
+    "Э?"
+    
+    show m thinking
+    with dissolve
+    
+    "Мелисса!"
+    
+    j "Мэл!"
+    
+    show m surprised
+    with dissolve
+    
+    m "Джошуа?"
+    
+    show m happy
+    with dissolve
+    
+    m "ДЖОШУА!"
+    
+    j "Кстати... Зови меня Джош... Джошуа - как то слишком формально..."
+    
+    m "Ладно!"
+    
+    "Она прыгнула на меня..."
+    
+    "Не могу дышать..."
+    
+    m "Какое облегчение, видеть тебя снова..."
+    
+    "Мои лёгкие... Они сжимаются..."
+    
+    m "Джошуа?  Ты одел какую-то странную синюю штору..."
+    
+    j "*лихорадочно машет руками*"
+    
+    m "О!"
+    
+    show m embarrassed
+    with dissolve
+    
+    "She finally gets off of me and brushes herself off."
+    
+    show m happy
+    with dissolve
+    
+    m "Well, I think I've recovered enough for us to make another time jump."
+    
+    j "Wait..."
+    
+    show m interested
+    with dissolve
+    
+    m "Hmm?"
+    
+    "A few gunshots are heard outside."
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.2)
+    
+    play sound "gun.wav"
+    $ renpy.pause(0.5)
+    
+    j "Well...{w=1} I'm sorry!"
+    
+    j "I was being insensitive before! Please forgive me!"
+    
+    hide m interested
+    with dissolve
+    
+    "I kneel down in supplication."
+    
+    "I hear her giggle."
+    
+    show m happy
+    with dissolve
+    
+    m "Forgiven!"
+    
+    "She takes my hand once more."
+    
+    m "Let's go!"
+    
+    show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+    
+    j "Maybe... she isn't so annoying after all..."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+
+    $ renpy.pause(1)
+
+    hide magic_circle
+    
+    play sound "blast.mp3"
+    scene bg white
+    hide m happy
+    with dissolve
+    stop music
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene five
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    show seventeenseventyeightbig
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg black
+    show seventeenseventynine
+    with dissolve
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneighty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightyone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightytwo
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightythree
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightyfour
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightyfive
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightysix
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightyeight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeeneightynine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninety
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetyone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetytwo
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetythree
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetyfour
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetyfive
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetysix
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetyeight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show seventeenninetynine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenhundred
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteentwo
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenthree
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenfour
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenfivebig
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    play music "comfort.mp3"
+    
+    "So, where are we now..."
+    
+    ".........."
+    
+    "There's a pond in front of us."
+    
+    scene bg pond
+    show m thinking
+    with dissolve
+    
+    m "I have no clue."
+    
+    "I see someone walking down the path."
+    
+    play music "connorstheme.mp3"
+    
+    o "Yo, man, what's up?"
+    
+    show m yelling
+    with dissolve
+    
+    m ".... excuse me?"
+    
+    o "You guys here to party with me and the trees?"
+    
+    show m angry
+    with dissolve
+    
+    m "........"
+    
+    show m thinking
+    with dissolve
+    
+    m "We're just trying to find out where we are."
+    
+    o "You're at the one and only Walden Pond!  The only spot to chill.  My name's Connor.  You can call me Connor."
+    
+    j "..... Why.... are you wearing..."
+    
+    j "all plaid?"
+    
+    c "Cuz I do what I want, mahn.  I {w=.5}{i}am{/i} {w=0.5}my {w=0.5}own {w=0.5}man."
+    
+    c "I bathe when I want, I eat when I want, I sleep when I want, and I do just anything when I want."
+    
+    show m smug
+    with dissolve
+    
+    m "Oh really?"
+    
+    c "Well, actually, I don't bathe, but everything else is true."
+    
+    show m surprised
+    with dissolve
+    
+    m "Oh dear..."
+    
+    mslow ".........."
+    
+    play sound "swing.wav"
+    show m shocked
+    with hpunch
+    
+    "Did he just.... {w=0.5}hit her.... {w=0.5}in the...............?"
+    
+    c "Yea, girl!"
+    
+    m ".................."
+    
+    "Oh no..."
+    
+    "I feel danger coming..."
+    
+    show m embarrassed
+    with dissolve
+    
+    $ renpy.pause(.5)
+    
+    show m yelling
+    with dissolve
+    
+    m "You jerk."
+    
+    c "Whoa, whoa, what's with the hate?  No hatin', man!  Where's the love?"
+    
+    "I feel tugging at my hand."
+    
+    m "C'mon, we're leaving this good-for-nothing loser."
+    
+    c "Hey, you leavin' already?  The party's only just started!"
+    
+    m "As far as I'm concerned, there is no 'party' here."
+    
+    j "You're one of the biggest bums I've ever met... But I like it!  Please teach me how you live like this!"
+    
+    "The hand that was grasping mine suddenly lets go."
+    
+    play sound "punch.wav"
+    scene bg pond
+    show m angry
+    with vpunch
+    
+    m "You insensitive prick!"
+    
+    "She storms off again."
+    
+    hide m angry
+    with dissolve
+    
+    c "Can I take your woman now?"
+    
+    j "....Eh?"
+    
+    c "I mean, she ain't yours any more, right?"
+    
+    "This guy {i}is{/i} kind of irritating now."
+    
+    "Hmm?"
+    
+    "I think I hear yelling in the distance."
+    
+    m "I WAS NEVER HIS IN THE FIRST PLACE!"
+    
+    "Oh. Ouch."
+    
+    c "She burned you like.... {w=2}never mind, mahn."
+    
+    c "Well, my job here's done.  Remember, don't do everything people ask of you.  Civil disobedience, my mahn, civil disobedience.  That's how I roll."
+    
+    "I definitely hate him now."
+    
+    "Well, at least he left... chasing a squirrel."
+    
+    stop music
+    play music "comfort.mp3"
+    
+    slow "..."
+    
+    "Now where could she be..."
+    
+    scene bg pond2
+    with dissolve
+    
+    "Ah, there she is."
+    
+    show m embarrassed
+    with dissolve
+    
+    "She's looking out onto the pond."
+    
+    "Come to think of it, the view is pretty nice here."
+    
+    "It almost makes me want to forget why I'm here in the first place..."
+    
+    "Wait, why am I here?"
+    
+    "For Gladys?"
+    
+    "I'm not sure any more."
+    
+    "Our arranged marriage... did it really mean that much to me?"
+    
+    show m interested
+    with dissolve
+    
+    m "Hey..."
+    
+    "Oh, she noticed I was here."
+    
+    j "I'm sorry about that back there..."
+    
+    j "I keep screwing up and pissing you off, don't I..."
+    
+    show m embarrassed
+    with dissolve
+    
+    m "Nah, it's not your fault.  I just have a short temper."
+    
+    "We sit in a comfortable silence."
+    
+    "She looks radiant in the light of the sun..."
+    
+    m "I've never been alone with a guy like this before..."
+    
+    m "Went to an all girls school, quit and starting working for a factory..."
+    
+    "Oh, fun.  Manual labor."
+    
+    m "What about you?"
+    
+    "Crap."
+    
+    j "Me?  I've had plenty of experience with women!"
+    
+    "I stick out my chest."
+    
+    "..."
+    
+    j "A-Actually, this is the first time I've been alone with a girl, too."
+    
+    "Another comfortable silence settles in, as we stare out into the sunset."
+    
+    hide m embarrassed
+    with dissolve
+    
+    "I feel something on my shoulder."
+    
+    "Melissa's fallen asleep, and is sleeping peacefully on my shoulder."
+    
+    "This is pleasant, I guess.  Absolute pea-"
+    
+    stop music
+    play music "connorstheme.mp3"
+    
+    c "Where's the lovin'?"
+    
+    "Eh?"
+    
+    "I look up to where the noise came from."
+    
+    scene bg treetop
+    with dissolve
+    
+    c "Hey mahn!"
+    
+    "Crap..... is he.... hanging from the tree???"
+    
+    "I think he caught the squirrel, too..."
+    
+    c "Quite a view from up here, if you know what I mean."
+    
+    scene bg pond2
+    with dissolve
+    
+    m "I think we should leave."
+    
+    show m angry
+    with dissolve
+    
+    "Oh, she's awake."
+    
+    m "Here, take my hand, quick, before he does something stupid."
+    
+    c "Where you going, mahn?"
+    
+    j "Yeah, I second that idea."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+    
+    "I take her hand, and hope we go somewhere more... normal."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+
+    $ renpy.pause(1)
+
+    hide magic_circle
+    
+    play sound "blast.mp3"
+    scene bg white
+    hide m angry
+    with dissolve
+    stop music
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene six
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    show eighteenfivebig
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg black
+    show eighteensix
+    with dissolve
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteeneight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteennine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenten
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteentwenty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenthirty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenforty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenfifty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteensixty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventy
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventyone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventytwo
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventythree
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventyfour
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventyfivebig
+    with dissolve
+
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    j "(Please don't be a creepy place.  Please don't be a creepy place.)"
+    
+    "I cautiously open my eyes."
+    
+    show bg street2
+    with dissolve
+    play music "closetoreality.mp3"
+    
+    "Hmm, this looks familiar."
+    
+    show m thinking
+    with dissolve
+    
+    m "It's seems we're back in New York."
+    
+    j "HOME!!!!!!!!!!"
+    
+    show m pointing
+    with dissolve
+    
+    m "No, we're still 30 years too early."
+    
+    "Damn."
+    
+    show m interested
+    with dissolve
+    
+    m "Let's look around a bit.  I need time to recover before we make our next trip."
+    
+    "Ah. That explains why we haven't been going any faster..."
+    
+    show m happy
+    with dissolve
+    
+    m "We should be back in our time with the next jump!"
+    
+    j "Yay! Woohoo! Yippee!"
+    
+    "Absolute sarcasm."
+    
+    show m angry
+    with dissolve
+    
+    "Oops."
+    
+    j "....I don't want to go home..."
+    
+    show m yelling
+    with dissolve
+    
+    m "What do you mean, you don't want to go home?"
+    
+    j "Well... This is just so much more fun than back home!"
+    
+    hide m yelling
+    with dissolve
+    
+    "I mean, what did I do back home?"
+    
+    "My life was pretty pointless."
+    
+    "Going to college, studying things that I frankly didn't care much about."
+    
+    "I'd much rather be writing my thoughts out, than reading what other people's thoughts are and taking them to heart."
+    
+    "I barely experienced what nature had to offer, even though that's what I wished for."
+    
+    "I had no sight of my own future from where I was."
+    
+    "Everyone thinks about the future and should have somewhat of a vision of their own.  {w=2}Yet, no matter how hard I tried, I could not see one for myself."
+    
+    "My marriage was supposed to be a future that I could finally grasp.  But did I?"
+    
+    j "*sigh*"
+    
+    show m embarrassed
+    with dissolve
+    
+    m "You know, this can't last forever..."
+    
+    m "The whole reason we're here is because we're trying to save your fiancé."
+    
+    j "I know."
+    
+    "I know that the things that have happened in the last few days have been different enough for a vision of myself to finally appear."
+    
+    show m interested
+    with dissolve
+    
+    m "Let's go then!  We'll find a place to rest."
+    
+    scene bg bar2
+    with dissolve
+    stop music
+    play music "reality.mp3"
+    
+    "It's the same bar as the one I visited in my time."
+    
+    "But now, it's just been built."
+    
+    show m thinking
+    with dissolve
+    
+    m "Let's sit down at that table over there."
+    
+    "We sit, and soon after..."
+    
+    hide m thinking
+    with dissolve
+    
+    "...she falls asleep."
+    
+    "Again."
+    
+    "On my shoulder."
+    
+    slow "........."
+    
+    "Let's try poking her."
+    
+    play sound "poke.wav"
+    
+    "*poke*"
+    
+    "Guess she's completely asleep."
+    
+    d "I see the truth in this world!"
+    
+    "Huh?"
+    
+    d "All this stuff out there {w=0.5}*hic*{w=0.5} is an illusion.  All that stuff people think that we can reach{w=0.5} *hic* {w=0.5}can NEVER be reached by humanity."
+    
+    "Oh yay, a drunk guy."
+    
+    "I unconsciously tighten my hold on Mel."
+    
+    "Wait, when did my arm..."
+    
+    d "Hey,{w=0.5} you there, {w=0.5}sonny, what do{w=0.5} *hic* {w=0.5}you think about this world?"
+    
+    "Uhh.........."
+    
+    j "It's perfectly miserable."
+    
+    "Please don't notice I'm lying..."
+    
+    d "EXACTLY!"
+    
+    "Thank God..."
+    
+    d "Look at this world.  We make all these pretty paintings and flowery writing to describe what isn't real!"
+    
+    d "Is what you see out there {i}anything{/i} like what you read or view in art?"
+    
+    "It seems fine to me..."
+    
+    d "The discomforting silence outside is the embodiment of our world's suppression and poverty in wealth and spirit."
+    
+    "Ah, the peace and quiet of night..."
+    
+    "The man sighs and takes another swig from a huge cup."
+    
+    d "Look at me...  Fallen from trying so hard to escape my father's lowly business of blacksmithing."
+    
+    d "The business world... is so cruel."
+    
+    "I drink to my health, oblivious to the man's plight."
+    
+    "No, wait, 'completely apathetic' seems to be a better phrase than 'oblivious.'"
+    
+    d "My fortune..."
+    
+    play sound "clink1.wav"
+    
+    $ renpy.pause(0.2)
+    
+    play sound "clink2.wav"
+    
+    $ renpy.pause(0.2)
+    
+    "I count out enough bills and coins to pay for the drink... making sure it's dated before 1875..."
+    
+    d "Why is life so unfair... I just wanted to escape..."
+    
+    "Ha.  Escape."
+    
+    "I guess I can kind of see where this man is coming from..."
+    
+    "Just a little."
+    
+    "Hmm..."
+    
+    d ".........unfair....."
+    
+    "Mel is still sleeping."
+    
+    "How should I wake her up..."
+    
+    "Let's try poking her again!"
+    
+    play sound "poke.wav"
+    
+    "*poke*"
+    
+    "...Nope."
+    
+    "Super Triple Poke!"
+    
+    play sound "poke.wav"
+    
+    
+    $ renpy.pause(0.5)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.5)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.5)
+    
+    "*poke* *poke* *poke*"
+    
+    m ".....umyu........."
+    
+    "...What kind of noise was that...?"
+    
+    "That's it!"
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.2)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.2)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.2)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.2)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.2)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.2)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.2)
+    
+    play sound "poke.wav"
+    
+    $ renpy.pause(0.2)
+    
+    "*poke* *poke* *poke* *poke* *poke* *poke* *poke* *poke*"
+    
+    m "Eh?!?"
+    
+    show m surprised
+    with dissolve
+    
+    m "What happened?!?"
+    
+    j "Nothing, nothing, you ready to leave?"
+    
+    show m angry
+    with dissolve
+    
+    m "I was sleeping!"
+    
+    j "Well I kind of want to get back home..."
+    
+    show m thinking
+    with dissolve
+    
+    stop music
+    
+    play music "memory.mp3"
+    
+    m "Fine, be that way."
+    
+    "She grabs the tips of my fingers, and I ready myself to go back home..."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+    
+    "Wait, is that my wallet on the table?"
+    
+    "Let me just grab it..."
+    
+    show m yelling
+    with dissolve
+    
+    m "What are you doing!"
+    
+    show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+
+    $ renpy.pause(1)
+
+    hide magic_circle
+    
+    play sound "blast.mp3"
+    scene bg white
+    hide m yelling
+    with dissolve
+    stop music
+    
+    "Before I blank out, I realize that I let go of her hand."
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene seven
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    show eighteenseventyfivebig
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg black
+    show eighteenseventysix
+    with dissolve
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventyeight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenseventynine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteeneighty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show eighteenninety
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenhundred
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenten
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwenty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenthirty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenforty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenfifty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteensixty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenseventy
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteeneighty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninety
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetyfive
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetysix
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetyeight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetynine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show twothousand
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show twothousandone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show twothousandtwo
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show twothousandthreebig
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    "Whoa....!"
+    
+    show bg timessquare
+    with dissolve
+    play music "startlingfuture.mp3"
+    
+    j "Mel... Where are we?"
+    
+    "...wait..."
+    
+    j "Mel?"
+    
+    slow "..........."
+    
+    slow "Oh no...."
+    
+    "You're kidding me..."
+    
+    "Ha...ha.......ha................."
+    
+    "I'm frozen in shock."
+    
+    slow "........"
+    
+    play sound "glass.wav"
+    
+    "Eh?"
+    
+    "Someone just... threw a coin at my feet."
+    
+    lg "Mommy, the strange looking man didn't move when I gave him a coin!"
+    
+    mo "Hmm. That's weird.  Hey, mister, are you actually going to do something?"
+    
+    "Uh oh..."
+    
+    "I run."
+    
+    play sound "run.wav"
+    
+    stop music
+    show bg cinema
+    with dissolve
+    
+    "Where am I now?"
+    
+    "Oh crap."
+    
+    "I guess the people in the front noticed that I didn't pay for entrance... to whatever this place is."
+    
+    "I sink into one of the seats."
+    
+    "..."
+    
+    "Eventually the guards give up."
+    
+    j "Phew."
+    
+    "Now what..."
+    
+    "This isn't good."
+    
+    "I'm not even sure how far into the future I am."
+    
+    "Mel..."
+    
+    "I NEED YOU!!!!"
+    
+    "Even though I'd probably NEVER say that to her face."
+    
+    "I actually kind of miss her though."
+    
+    "..."
+    
+    scene bg black
+    with dissolve
+    
+    nvl clear
+    nvl show dissolve
+    
+    nvlj "AH!!!!"
+    nvlt "The people in the seats in front of me turn in annoyance."
+    nvlj "Ehehe... It's nothing..."
+    nvlt "Thank God it's dark in here and they can't see my clothes."
+    nvlt "But why aren't they reacting like I am!?!?"
+    nvlt "There are people moving on the screen in the front!"    
+    nvlt "..."
+    nvlt "What is this...?"
+    nvlt "Maybe it's one of those motion pictures that they had back in my time..."
+    nvlt "But there's sound... and color!"
+    nvlt "..."
+    nvlt "Is this based on reality?"
+    nvlt "....Wow, so corruption exists even in the future..."
+    nvlt "Maybe I should slip out of here now..."
+
+    nvl hide dissolve
+    
+    scene bg cinema
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg timessquare
+    with dissolve
+    play music "startlingfuture.mp3"
+
+    "I'm dodging the crowds to avoid an encounter like the one before..."
+    
+    scene bg timessquare
+    with vpunch
+    stop music
+    
+    "Owww, my collar!"
+    
+    show m angry
+    with dissolve
+    
+    m "Where were you!??!?"
+    
+    m "Don't you ever stay in one place!?!??"
+    
+    show m embarrassed
+    with dissolve
+    
+    m "I was worried about you..."
+    play music "comfort.mp3"
+    
+    "Awww... that's heatwarming."
+    
+    j "Well, I wasn't-"
+    
+    "Wait, think before I speak..."
+    
+    j "I was worried about you, too."
+    
+    m "..."
+    
+    "I think my face is heating up a bit."
+    
+    show m interested
+    with dissolve
+    
+    m "Well, we can get going now, can't we?"
+    
+    j "Off to 1905!"
+    
+    show m happy
+    with dissolve
+    
+    show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+    
+    m "Yep!"
+    
+    show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+
+    $ renpy.pause(1)
+
+    hide magic_circle
+    
+    play sound "blast.mp3"
+    scene bg white
+    hide m happy
+    with dissolve
+    stop music
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene eight
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    show twothousandthreebig
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg black
+    show twothousandtwo
+    with dissolve
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show twothousandone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show twothousand
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetynine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetyeight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetysix
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninetyfive
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenninety
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteeneighty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenseventy
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteensixty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenfifty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenforty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenthirty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwentynine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwentyeight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwentyseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwentysix
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwentyfivebig
+    with dissolve
+
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg fog
+    with dissolve
+    play music "darkness.mp3"
+    
+    "This is dark and gloomy..."
+    
+    j "Where the hell are we?"
+    
+    show m thinking
+    with dissolve
+    
+    m "Well, I think we're in 1925."
+    
+    j "..."
+    
+    j "Where should we go while you recover?"
+    
+    m "There seems to be something going on over there.  Let's go!"
+    
+    "I get dragged along to the party..."
+    
+    stop music
+    
+    hide m thinking
+    scene bg pool
+    with dissolve
+    
+    play music "party.mp3"
+    
+    "What is this place...?"
+    
+    "Let's ask this random woman!"
+    
+    j "Hey, do you know where we are?"
+    
+    w "You're at the party!"
+    
+    "She runs off screaming and jumps into the pool... with a vodka glass in her hand."
+
+    stop music
+    
+    "Wait, there's someone else in the pool... in a plaid bathing suit."
+    
+    "With an inflatable... shark?"
+    
+    play music "connorstheme.mp3"
+    
+    "..."
+    
+    "I feel impending doom..."
+    
+    "Wait, what is he holding...????"
+    
+    "..."
+    
+    "This man looks too familiar..."
+    
+    o2 "Wassssssssssssup, mahn?"
+    
+    o2 "I'm the host of this party, mahn!"
+    
+    slow ".............."
+    
+    show m surprised
+    with dissolve
+    
+    m "You wouldn't happen to be... Connor, would you...?"
+    
+    o2 "No, that was my good ol' grandfather.  I,"
+    
+    "He bows."
+    
+    o2 "am Connor, Jr. {w=1.0} Jr."
+    
+    c2 "I heard my grandfather was a great, honorable, and wise man."
+    
+    jslow "...."
+    
+    show m thinking
+    with dissolve
+    
+    mslow "...."
+    
+    jslow "Right...."
+    
+    c2 "You likin' the party, my mahn?"
+    
+    "He winks at Mel."
+    
+    show m angry
+    with dissolve
+    
+    c2 "Want some toast?"
+    
+    scene bg bread at Pan((0, 800), (0, 0), 10.0)
+    
+    "What the hell?"
+    
+    c2 "You know you dig me and my toast."
+    
+    show m yelling
+    with dissolve
+    
+    mslow "....No."
+    
+    show m thinking
+    with dissolve
+    
+    "She mutters under her breath."
+    
+    mslow "Not again..."
+    
+    j "I'll take some!"
+    
+    "I grab a piece of toast."
+    
+    hide m thinking
+    with dissolve
+    
+    "...And watch as Mel runs off in a fury."
+    
+    scene bg pool
+    with dissolve
+    
+    c2 "Right on, mahn."
+    
+    c2 "Where's firefox goin'?"
+    
+    j "...The resemblance is uncanny..."
+    
+    c2 "What'd you say?"
+    
+    j "I dunno where's she's going."
+    
+    c2 "I hear ya, mahn."
+    
+    j "So what do you do all day...?"
+    
+    "I munch on my piece of bread..."
+    
+    c2 "I do everything here.  I party, {w=.5}I drink, {w=.5}I party, {w=.5}I sleep, {w=.5}I party, {w=.5}and so on, {w=.5}mahn.  {w=.5}Life is good."
+    
+    j ".... Where do you get all the money for this...?"
+    
+    c2 "Inheritance, murd-{w=2} I mean, well, truth be told, I sell this."
+    
+    "He holds up a bottle of... whiskey?"
+    
+    scene bg whiskey at Pan((0, 800), (0, 0), 5.0)
+    
+    $ renpy.pause(5.0)
+    
+    j "...."
+    
+    j "How can you make money like this from that?"
+    
+    c2 "Well, you know, with all those prohibitionists out there... There's high demand, my mahn."
+    
+    scene bg pool
+    with dissolve
+    
+    play sound "drink.wav"
+    with hpunch
+    
+    "He takes a swig."
+    
+    c2 "Want some?"
+    
+    j "No thanks..."
+    
+    j "I have a long journey home..."
+    
+    jslow "..."
+    
+    j "Do you spend {i}all{/i} your money on this?"
+    
+    c2 "Well...Um... Yea."
+    
+    "What a waste..."
+    
+    c2 "I mean, I spend it on... women too!"
+    
+    "Well, not a complete waste..."
+    
+    "..."
+    
+    "No, he {b}is{/b} a complete waste."
+    
+    "..."
+    
+    "Maybe I should go find Mel..."
+    
+    "Talking to this guy is sickening..."
+    
+    j "*sigh*"
+    
+    "A woman comes over."
+    
+    c2 "Duty calls, my mahn."
+    
+    c2 "See ya later, my mahn.  Hope you enjoy yourself."
+    
+    "He winks again as he walks off with his stack of toast, his whiskey, and the woman."
+    
+    "And I set off in my search for Mel, again."
+    
+    stop music
+    scene bg tree
+    with dissolve
+    
+    play music "comfort.mp3"
+    
+    "I find Mel... at the trunk of this odd tree."
+    
+    "How fitting... an odd tree at the house of a very odd man."
+    
+    "And she's sleeping, again."
+    
+    "She looks pretty."
+    
+    "I lean in to look at her face."
+    
+    "..."
+    
+    "She seems to be stirring."
+    
+    "She leans forward with her eyes closed..."
+    
+    "Oops."
+    
+    "Her eyes open quickly and suddenly."
+    
+    show m embarrassed
+    with dissolve
+    
+    "I back away quickly."
+    
+    j "S-Sorry."
+    
+    j "I was gonna wake you up."
+    
+    "Ha, what a lie."
+    
+    m "No, it's ok..."
+    
+    "She mumbles."
+    
+    m "Should we get going...?"
+    
+    "My heart is still beating wildly."
+    
+    j "Yea."
+    
+    "She holds out her hand, and I take it."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+    
+    "I ready myself for what my past will bring, as I stare at the hand that is grasping mine."
+    
+    show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
+
+    $ renpy.pause(1)
+
+    hide magic_circle
+    
+    play sound "blast.mp3"
+    scene bg white
+    hide m yelling
+    with dissolve
+    stop music
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene nine
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    show nineteentwentyfivebig
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg black
+    show nineteentwentyfour
+    with dissolve
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwentythree
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwentytwo
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwentyone
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwenty
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteennineteen
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteeneighteen
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenseventeen
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteensixteen
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenfifteen
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenfourteen
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenthirteen
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteentwelve
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteeneleven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenten
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteennine
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteeneight
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenseven
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteensix
+    
+    $ renpy.pause(0.02)
+    
+    scene bg black
+    show nineteenfivebig
+    with dissolve
+
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg street
+    with dissolve
+    
+    play music "memory.mp3"
+    
+    "I'm back.... home.......!!!"
+    
+    show m shocked
+    with dissolve
+    
+    m "What... What are you doing???"
+    
+    j "Eh?"
+    
+    "I find my lips.... on the ground."
+    
+    "I quickly get up, and sheepishly look in the opposite direction."
+    
+    j "Just getting used to being back home now..."
+    
+    show m thinking
+    with dissolve
+    
+    m "Whatever..."
+    
+    j "Okay, now let's get to saving Gladys!"
+    
+    hide m thinking
+    with dissolve
+    
+    "I mean, that's what I've been trying to do, right?  Traveling through all that just to save her?"
+    
+    "What did we have though?"
+    
+    "Gladys was my fiancé through an arranged marriage by our parents."
+    
+    "I'd grown attached to her through the various meetings we had..."
+    
+    "But why?"
+    
+    "Had I truly loved her?"
+    
+    "Or was it the fact that our marriage would tie me down, and actually settle my life?"
+    
+    "I'm not so sure any more..."
+    
+    "Was I in love with Gladys, or the concept of marriage?"
+    
+    "Why am I questioning this now, when I can finally change what happened?"
+    
+    "I glance at Mel as we walk down the street."
+    
+    show m embarrassed
+    with dissolve
+    
+    m "Why are you staring at me?"
+    
+    j "Oh, sorry, no reason, really.  Just thinking."
+    
+    hide m embarrassed
+    with dissolve
+    
+    "I can't deny that I feel attracted to her."
+    
+    "Yet, if it wasn't for Gladys's accident, I may have never met her."
+    
+    "She's been trying her hardest to help me save my fiancé."
+    
+    "Sure, at first, I may have seen her as annoying... person, but..."
+    
+    "Being with her these past few days..."
+    
+    "I can't help but feel much more comfortable being with her."
+    
+    "I shake these thoughts from my head as we near the bridge."
+    
+    show m smug
+    with dissolve
+    
+    m "Well, what should we do now?"
+    
+    j "Well..."
+    
+    "I think."
+    
+    hide m smug
+    with dissolve
+    
+    j "Her buggy fell off on the other side of the bridge."
+    
+    j "We have five minutes from now... It's 8:58 AM."
+    
+    "I look over at my right... to find that Mel is gone."
+    
+    j "Mel???"
+    
+    m "Over here!"
+    
+    show m interested
+    with dissolve
+    stop music
+    play music "changethepast.mp3"
+    
+    "She waves from a buggy at the side of the road."
+    
+    m "We can take this!"
+    
+    hide m interested
+    with dissolve
+    
+    j "Wait, that isn't ours..."
+    
+    "I'm stopped mid-sentence as I feel a hand grab me by the collar."
+    
+    "I'm flying through the air..."
+    
+    "Wait, when did the buggy get this close to me...?"
+    
+    j "MEL!??!?"
+    
+    show m angry
+    with dissolve
+    
+    "She has me by the collar."
+    
+    "And she proceeds to pull me into the buggy."
+    
+    j "Why are we going so fast!??"
+    
+    show m yelling
+    with dissolve
+    
+    m "Cuz, we only have 1 minute left!"
+    
+    m "Don't you want to save Gladys?!?"
+    
+    "Do I?"
+    
+    "What am I thinking!  She didn't deserve to die!"
+    
+    j "Yes!"
+    
+    "I nod to reaffirm my conviction to myself."
+    
+    scene bg bridge
+    show m angry
+    with dissolve
+    
+    "We're speeding across the bridge."
+    
+    "Are we going too fast?"
+    
+    j "Can you slow down just a bit?"
+    
+    m "I don't know how!!!"
+    
+    "....Oh crap..."
+    
+    j "Wait, we're gonna hit that other buggy!"
+    
+    show m shocked
+    with dissolve
+    
+    m "AHHHH!!!!"
+    
+    "I grab the reins, and pull.  Hard."
+    
+    show bg bridge
+    with vpunch
+    with hpunch
+    with vpunch
+    with hpunch
+    
+    "We've averted almost certain death..."
+    
+    hide m shocked
+    with dissolve
+    
+    "Who was driving that other buggy?"
+    
+    "I look back to see where the other buggy is, yet the bridge is empty..."
+    
+    stop music
+    
+    "..."
+    
+    "What time is it...?"
+    
+    "......"
+    
+    "I feel a cold shudder go through my body."
+    
+    "9:03 AM."
+    
+    play music "coldshiver.mp3"
+    
+    j "Um, Mel...?"
+    
+    show m surprised
+    with dissolve
+    
+    mslow "........"
+    
+    "The buggy has stopped."
+    
+    j "Mel..."
+    
+    show m embarrassed
+    with dissolve
+    
+    m "That wasn't supposed to happen."
+    
+    j "I know."
+    
+    m "It wasn't..."
+    
+    stop music
+    
+    play music "frantic.mp3"
+    
+    play sound "run.wav"
+    hide m embarrassed
+    with dissolve
+    
+    j "Wait!"
+    
+    "Godamnit, that woman..."
+    
+    play sound "run.wav"
+    scene bg street2
+    with dissolve
+    
+    j "Mel!"
+    
+    play sound "run.wav"
+    scene bg alleyway2
+    with dissolve
+    
+    j "{size=+20}MEL!{/size}"
+    
+    play sound "run.wav"
+    scene bg street
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    stop music
+    scene bg black
+    with dissolve
+    
+    "She's gone..."
+    
+    play sound "rain01.mp3"
+    
+    "And I stand here, in the rain."
+    
+    $ renpy.pause(1.0)
+    
+    scene ten
+    with dissolve
+    
+    $ renpy.pause(2.0)
+    
+    scene bg black
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    "July 16th, 1905."
+    
+    play music "funeral.mp3"
+    
+    "The rain pours outside."
+    
+    play sound "rain01.mp3"
+
+    scene bg cemetery
+    with dissolve
+    
+    "I see myself on the other side of this grave."
+    
+    "I pull my hood closer to my face."
+    
+    "Who knows what could happen if I see myself..."
+    
+    "I take a glance around myself."
+    
+    "..."
+    
+    stop music
+    play music "coldshiver.mp3"
+    
+    "Wait, who's that?"
+    
+    "That can't be."
+    
+    "She looks up at me."
+    
+    "Her eyes catch my stare."
+    
+    "But only for a moment."
+    
+    play sound "run.wav"
+    
+    "She walks off across the cemetery."
+    
+    "I must stop her."
+    
+    play sound "run.wav"
+    
+    scene bg cemetery2
+    with dissolve
+    
+    j "Stop!"
+    
+    jslow "........... {w=1} Gladys....."
+    
+    "The woman stops and turns."
+    
+    stop music
+    play music "facade.mp3"
+    
+    "It is her."
+    
+    g "Hello, Josh."
+    
+    j "How...?"
+    
+    "Yet, somehow, in my mind, an explanation has already surfaced."
+    
+    g "It was all an act.  A farce.  That buggy that veered off the bridge was empty."
+    
+    "And, she'd been here all long.  {w=1}Safe. {w=1}And. {w=1}Alive."
+    
+    g "I've been here this whole time.  Safe, and alive."
+    
+    "I feel bitter now.  A cold, unwelcome emotion is filling my heart."
+    
+    g "I'm sorry, Josh, but... I couldn't live under that system that we fell victim to."
+    
+    "Well, neither could I, but did I selfishly escape?"
+    
+    "Or was I just too weak to do what she did?"
+    
+    j "Sorry doesn't cut it.  I realized that I didn't love you.  No, I didn't."
+    
+    j "However, I loved the fact that we were being married.  That I actually had a future that was certain.  You made that certain for me by pretending to play along with it."
+    
+    j "But, you've been lying this entire time."
+    
+    "And so have I.  I've been lying to myself."
+    
+    g "Well, I had to, in order to be with the one I loved.  I'm leaving tomorrow.  For France."
+    
+    "She has an exit from this spiral."
+    
+    g "I thought I'd bid you farewell, but I guess I almost chickened out."
+    
+    "Where is my exit?"
+    
+    g "Thank you, really, and I'm so sorry for any misunderstandings I may have caused."
+    
+    "Oh, you have no idea."
+    
+    "She disappears down the cemetery path, along with the many other people now leaving the funeral."
+    
+    stop music
+    
+    "Now.  I have to find Mel."
+    
+    play sound "rain01.mp3"
+    scene bg street2
+    with dissolve
+    
+    "It is still raining."
+    
+    "The street is almost empty."
+    
+    "I spot myself dodging stares and entering that alleyway."
+    
+    "I follow discreetly."
+    
+    scene bg alleyway2
+    with dissolve
+    
+    slow "..."
+    
+    "I never knew it would be possible to stalk myself..."
+    
+    "I hear the click of the door, and bring myself out from behind the corner."
+    
+    "I peer into the window."
+    
+    scene bg bar
+    show m yelling
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    scene bg alleyway2
+    hide m yelling
+    with dissolve
+    
+    "Now what..."
+    
+    "I can see myself, and my first encounter with Mel."
+    
+    "I can see her."
+    
+    "But I can't reach her."
+    
+    "..."
+    
+    "No use in staying here if there's a chance of me being seen."
+    
+    scene bg docks
+    with dissolve
+    
+    play music "granted wishes.mp3"
+    
+    show screen1 at left
+    
+    $ renpy.pause(4.0)
+    
+    hide screen1
+    show screen2 at left
+    
+    $ renpy.pause(4.0)
+    
+    hide screen2
+    show screen4 at left
+    
+    $ renpy.pause(2.0)
+    
+    
+    scene bg bar
+    show m yelling
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg bedroom
+    show m angry
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg hill
+    show m embarrassed
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg pond2
+    show m interested
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg tent
+    show m happy
+    with dissolve
+    
+    $ renpy.pause(0.5)
+    
+    scene bg docks
+    with dissolve
+    show snowblossom
+    
+    show screen5 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen5
+    show screen3 at left
+    
+    $ renpy.pause(4.0)
+    
+    hide screen3
+    show screen6 at left
+    
+    $ renpy.pause(4.0)
+    
+    hide screen6
+    show screen7 at left
+    
+    $ renpy.pause(2.0)
+    
+    hide screen7
+    hide snowblossom
+    show m embarrassed
+    with dissolve
+    show screen8 at left
+    
+    $ renpy.pause(2.0)
+    
+    hide screen8
+    show screen9 at left
+    
+    $ renpy.pause(2.0)
+    
+    hide screen9
+    show screen10 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen10
+    show screen11 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen11
+    show screen12 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen12
+    show screen13 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen13
+    show screen14 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen14
+    show screen15 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen15
+    show screen16 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen16
+    show m shocked
+    with dissolve
+    show screen17 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen17
+    show screen18 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen18
+    show screen19 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen19
+    show m embarrassed
+    with dissolve
+    show screen20 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen20
+    show screen21 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen21
+    show m angry
+    with dissolve
+    show screen22 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen22
+    show screen23 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen23
+    show screen24 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen24
+    show screen25 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen25
+    show m surprised
+    with dissolve
+    show screen26 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen26
+    show m embarrassed
+    with dissolve
+    
+    $ renpy.pause(1.0)
+    
+    show m angry
+    with dissolve
+    show screen27 at left
+    
+    $ renpy.pause(2.0)
+    
+    hide screen27
+    show screen28 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen28
+    show screen29 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen29
+    show m surprised
+    with dissolve
+    show screen17 at left
+    
+    $ renpy.pause(2.0)
+    
+    hide screen17
+    show screen30 at left
+    
+    $ renpy.pause(4.0)
+    
+    hide screen30
+    show screen31 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen31
+    show m embarrassed
+    with dissolve
+    show screen32 at left
+    
+    $ renpy.pause(3.0)
+    
+    stop music
+    hide screen32
+    show m angry
+    with dissolve
+    show screen33 at left
+    
+    $ renpy.pause(2.0)
+    
+    hide screen33
+    show screen34 at left
+    
+    $ renpy.pause(2.0)
+    
+    hide screen34
+    show screen35 at left
+    
+    $ renpy.pause(2.0)
+    
+    hide screen35
+    play sound "punch.wav"
+    show bg docks
+    with vpunch
+    show m yelling    
+    show screen36 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen36
+    show screen37 at left
+    
+    $ renpy.pause(3.0)
+    
+    hide screen37
+    hide m angry
+    with dissolve
+    scene bg black
+    with circleirisin
+    
+    play music "ifeveryonecared.mp3"
+    
+    $ renpy.pause(15.0)
+    
+    show credits1 at top
+    
+    
+    $ renpy.pause(4.0)
+    
+    hide credits1
+    show credits2 at top
+    
+    $ renpy.pause(6.0)
+    
+    hide credits2
+    show credits3 at top
+    
+    $ renpy.pause(4.0)
+    
+    hide credits3
+    show credits4 at top
+    
+    $ renpy.pause(6.0)
+    
+    hide credits4
+    show credits11 at top
+    
+    $ renpy.pause(4.0)
+    
+    hide credits11
+    show credits12 at top
+    
+    $ renpy.pause(6.0)
+    
+    hide credits12
+    show credits13 at top
+    
+    $ renpy.pause(4.0)
+    
+    hide credits13
+    show credits14 at top
+    
+    $ renpy.pause(6.0)
+    
+    hide credits14
+    show credits15.1 at top
+    
+    $ renpy.pause(4)
+    
+    hide credits15.1
+    show credits15.2 at top
+    
+    $ renpy.pause(4)
+    
+    hide credits15.2
+    show credits15.3 at top
+    
+    $ renpy.pause(4.0)
+    
+    hide credits15.3
+    show credits16 at top
+    
+    $ renpy.pause(6.0)
+    
+    hide credits16
+    show credits17 at top
+    
+    $ renpy.pause(7.0)
+    stop music
+    
+    $ renpy.pause(6.0)
+    
+    hide credits17
+    with dissolve
+    
+    $ renpy.pause(5.0)
+</poem>

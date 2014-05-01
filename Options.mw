@@ -1,0 +1,44 @@
+[[Категория:Lost Threads]]
+<poem>
+init -1:
+    python hide:
+        config.developer = False
+        config.screen_width = 800
+        config.screen_height = 600
+        config.window_title = u"Lost Threads"
+        theme.roundrect(widget = "#003c78", widget_hover = "#0050a0", widget_text = "#c8ffff", widget_selected = "#ffffc8", disabled = "#404040", disabled_text = "#c8c8c8", label = "#ffffff", frame = "#6496c8", button_menu = True, rounded_window = True, mm_root = "mainmenu.png", gm_root = "#dcebff")
+        # style.window.background = Frame("frame.png", 5, 5)
+        # style.window.left_margin = 6
+        # style.window.right_margin = 6
+        # style.window.top_margin = 6
+        # style.window.bottom_margin = 6
+        # style.window.left_padding = 6
+        # style.window.right_padding = 6
+        # style.window.top_padding = 6
+        # style.window.bottom_padding = 6
+        # style.window.yminimum = 250
+        # style.mm_menu_frame.xpos = 0.5
+        # style.mm_menu_frame.xanchor = 0.5
+        # style.mm_menu_frame.ypos = 0.75
+        # style.mm_menu_frame.yanchor = 0.5
+        # style.default.font = "DejaVuSans.ttf"
+        # style.default.size = 22
+        config.has_sound = True
+        config.has_music = False
+        config.has_voice = False
+        # style.button.activate_sound = "click.wav"
+        # style.imagemap.activate_sound = "click.wav"
+        config.enter_sound = "click.wav"
+        config.exit_sound = "click.wav"
+        config.sample_sound = "click.wav"
+        # config.main_menu_music = "menu.mp3"
+        config.enter_transition = dissolve
+        config.exit_transition = dissolve
+        config.intra_transition = dissolve
+        config.main_game_transition = dissolve
+        config.game_main_transition = dissolve
+        config.end_splash_transition = dissolve
+        config.end_game_transition = dissolve
+        config.default_fullscreen = False
+        config.default_text_cps = 0
+</poem>
