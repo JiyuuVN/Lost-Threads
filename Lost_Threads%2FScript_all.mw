@@ -1,5 +1,3 @@
-[[Категория:Lost Threads]]
-<poem>
 init:
     image bg cemetery = "Cemetery2.png"
     image bg alleyway = "Alleyway2.png"
@@ -223,43 +221,43 @@ init:
     image nineteensix = Text("1906", color="fffafa")
     
     
-    image screen1 = Text("I find myself in front of the dock.", color="fffafa")
-    image screen2 = Text("The rain has stopped.", color="fffafa")
-    image screen3 = Text(".........And where did these cherry blossoms come from............?", color="fffafa")
-    image screen4 = Text("Mel...", color="fffafa")
-    image screen5 = Text("What did I get myself into...", color="fffafa")
-    image screen6 = Text("Wait. Is that...?", color="fffafa")
-    image screen7 = Text("Mel...?", color="00ee00")
+    image screen1 = Text("Я стоял перед доками.", color="fffafa")
+    image screen2 = Text("Дождь прекратился.", color="fffafa")
+    image screen3 = Text(".........откуда это цветение............?", color="fffafa")
+    image screen4 = Text("Мэлл...", color="fffafa")
+    image screen5 = Text("Как же все дошло до этого...", color="fffafa")
+    image screen6 = Text("Стоп. Неужели это...?", color="fffafa")
+    image screen7 = Text("Мэлл...?", color="00ee00")
     image screen8 = Text("......", color="#C71585")
-    image screen9 = Text("Mel!", color="00ee00")
-    image screen10 = Text("Stop...", color="C71585")
-    image screen11 = Text("I already know you hate me.", color="C71585")
-    image screen12 = Text("But please don't come any closer...", color="C71585")
-    image screen13 = Text("Please...", color="C71585")
-    image screen14 = Text("Mel...", color="00ee00")
-    image screen15 = Text("She's alive.", color="00ee00")
-    image screen16 = Text("Gladys is alive.", color="00ee00")
-    image screen17 = Text("Eh?", color="C71585")
-    image screen18 = Text("That can't be!", color="C71585")
-    image screen19 = Text("I saw that buggy go off the bridge!", color="C71585")
-    image screen20 = Text("I saw it...", color="C71585")
-    image screen21 = Text("Gladys wasn't on it.", color="00ee00")
-    image screen22 = Text("Stop trying to make me feel better.", color="C71585")
-    image screen23 = Text("....Stubborn as always.", color="fffafa")
-    image screen24 = Text("Let's see if this works...", color="fffafa")
-    image screen25 = Text("Lying isn't gonna make thin--", color="C71585")
-    image screen26 = Text("Lying isn't gonna make thin-- mmmmmfffffff!", color="C71585")
-    image screen27 = Text("Uh oh...", color="fffafa")
-    image screen28 = Text("You jerk, what was that for?!?", color="C71585")
-    image screen29 = Text("To shut you up!", color="00ee00")
-    image screen30 = Text("I guess I really haven't been very clear...", color="00ee00")
-    image screen31 = Text("I don't hate you.", color="00ee00")
-    image screen32 = Text("I think you're hot.", color="00ee00")
-    image screen33 = Text("Wait, that didn't...", color="fffafa")
-    image screen34 = Text("Come out right...", color="fffafa")
-    image screen35 = Text("At all...", color="fffafa")
-    image screen36 = Text("You inconsiderate JERK!", color="C71585")
-    image screen37 = Text("Hell hath no fury like a woman scorned...", color="00ee00")
+    image screen9 = Text("Мэл!", color="00ee00")
+    image screen10 = Text("Хватит...", color="C71585")
+    image screen11 = Text("Я знаю что ты меня ненавидишь.", color="C71585")
+    image screen12 = Text("Но пожалуйста больше не приближайся...", color="C71585")
+    image screen13 = Text("Прошу тебя...", color="C71585")
+    image screen14 = Text("Мэлл...", color="00ee00")
+    image screen15 = Text("Она жива.", color="00ee00")
+    image screen16 = Text("Глэдис жива.", color="00ee00")
+    image screen17 = Text("Что?", color="C71585")
+    image screen18 = Text("Этого не может быть!", color="C71585")
+    image screen19 = Text("Я видела как коляска съехала с моста!", color="C71585")
+    image screen20 = Text("Я видела...", color="C71585")
+    image screen21 = Text("Глэдис там не было.", color="00ee00")
+    image screen22 = Text("Прекрати меня успокаивать.", color="C71585")
+    image screen23 = Text("....Упряма как всегда.", color="fffafa")
+    image screen24 = Text("Посмотрим, может это сработает...", color="fffafa")
+    image screen25 = Text("Ложь все равно ничего не из--", color="C71585")
+    image screen26 = Text("Ложь все равно ничего не из-- мммм!", color="C71585")
+    image screen27 = Text("Ох...", color="fffafa")
+    image screen28 = Text("Идиот, зачем ты это сделал?!?", color="C71585")
+    image screen29 = Text("Чтобы заткнуть тебя!", color="00ee00")
+    image screen30 = Text("Полагаю я действительно была не совсем права...", color="00ee00")
+    image screen31 = Text("Я не ненавижу тебя.", color="00ee00")
+    image screen32 = Text("Ты горишь.", color="00ee00")
+    image screen33 = Text("Подожди, это же не для...", color="fffafa")
+    image screen34 = Text("Получается верно...", color="fffafa")
+    image screen35 = Text("Все это...", color="fffafa")
+    image screen36 = Text("Ты наглый идиот!", color="C71585")
+    image screen37 = Text("фурия в аду ничто в сравнении с брошенной женщиной...", color="00ee00")
     image credits1 = Text("Character Design:", color="fffafa")
     image credits2 = Text("tsuina (http://tomoko.denpa.org/)", color="fffafa")
     image credits3 = Text("Sound FX:", color="fffafa")
@@ -297,6 +295,8 @@ init:
     image moviescreen14 = Text("Maybe I should slip out of here now...", color="fffafa")
 
 
+
+
 label start:
     
     stop music
@@ -319,8 +319,10 @@ label start:
     
     play sound "rain01.mp3"
 
+
     scene bg cemetery
     with fade
+
 
     "Как и неделю назад."
     
@@ -331,7 +333,7 @@ label start:
     
     "Мне сказали, что она утонула."
     
-    "Её коляска вместе с лошадьми соравлась с Бруклинского моста в Нью-Йорке и упала в реку."
+    "Её коляска вместе с лошадьми сорвалась с Бруклинского моста в Нью-Йорке и упала в реку."
     
     priest " Сегодня мы собрались, чтобы проститься..."
     
@@ -447,7 +449,7 @@ label start:
     
     "Чёрт, чёрт..."
     
-    m1 "Знаете, Я НЕНАВИЖУ таких, как вы. Вы думаете, что можете когда вам угодно подцепить любоую девушку. Сегодня, «мистер», ты не на ту нарвался!"
+    m1 "Знаете, Я НЕНАВИЖУ таких, как вы. Вы думаете, что можете когда вам угодно подцепить любую девушку. Сегодня, «мистер», ты не на ту нарвался!"
     
     show m angry
     with dissolve
@@ -718,7 +720,7 @@ label start:
     
     "Та невыносимая женщина мне ухмыляется."
     
-    m "Долго ещё будешь ан меня пялиться?"
+    m "Долго ещё будешь на меня пялиться?"
     
     "Я немного бормочу."
     
@@ -740,7 +742,7 @@ label start:
     
     m "Э-эй, не падай опять в обморок при виде меня!"
     
-    "Бесполезно... уже ушла, даже не попрощавшишь ...... Маги.... Хахаха.... Должно быть, я не разглядел...."
+    "Бесполезно... уже ушла, даже не попрощавшись ...... Маги.... Хахаха.... Должно быть, я не разглядел...."
     
     play sound "punch.wav"
     show bg bedroom
@@ -755,7 +757,7 @@ label start:
     
     "Проклятье, и правда ведь..."
     
-    m "Я исполню одно твоё жение, за просто так.  Всё, что угодно."
+    m "Я исполню одно твоё желание, за просто так.  Всё, что угодно."
     
     j "Э?"
     
@@ -784,7 +786,7 @@ label start:
     show m surprised
     with dissolve
     
-    "Теперь, её очередь быть удивлённой."
+    "Теперь, её очередь удивляться."
     
     show m shocked
     with dissolve
@@ -798,7 +800,7 @@ label start:
     
     m "Думаю, это можно будет уладить..."
     
-    "Внезапно, она приобрела серьёзный вид."
+    "Внезапно, она стала серьёзной."
     
     show m pointing
     with dissolve
@@ -825,11 +827,13 @@ label start:
     
     show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
     
-    "Suddenly, there is a blinding flash of light."
+    "Яркая ослепляющая вспышка света."
     
     show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
 
+
     $ renpy.pause(1)
+
 
     hide magic_circle
     
@@ -838,7 +842,7 @@ label start:
     hide m embarrassed
     with dissolve
     
-    slow "And there is... {w=1}no more."
+    slow "И... {w=1}все."
     
     stop music
     
@@ -1048,7 +1052,7 @@ label start:
     
     "Ах, какой приятный свежий воздух... Мои лёгкие словно очистились."
     
-    "Но, почему я опять тут?"
+    "Но, почему я снова здесь?"
     
     slow "........"
     
@@ -1071,13 +1075,13 @@ label start:
     
     j "И что же?"
     
-    "Надеюсь, это кое-что будет хорошим, да ведь?"
+    "Надеюсь, это кое-что будет хорошим, так ведь?"
     
     mslow "Ну... Вообще-то, я не заканчивала никакой школы..."
     
-    j "Ну ведь, ты всё ещё маг с лицензией, верно?"
+    j "Но, ты всё ещё маг с лицензией, верно?"
     
-    mslow "...Ну, Я... меня типо выгнали из школы..."
+    mslow "...Ну, Я... меня вроде как выгнали из школы..."
     
     mslow "И я... никогда не училась путешествовать во времени..."
     
@@ -1086,9 +1090,9 @@ label start:
     show m yelling
     with dissolve
     
-    m "Эй, я запомнила много хороших вещей из Магического Еженедельника, ясно?  Так что, я немного знакома с тем, чем мы, маги, занимаемся..."
+    m "Эй, я запомнила много полезных вещей из Магического Еженедельника, ясно?  Так что, я немного знакома с тем, чем мы, маги, занимаемся..."
     
-    m "И вообще, разве не лучше познавать всё новое по личному опыту, нежели сидеть на нудных уроках?"
+    m "И вообще, разве не лучше учиться на практике, а не просиживать на скучных уроках?"
     
     jslow ". . . ."
     
@@ -1105,13 +1109,13 @@ label start:
     
     "Кажется, в этот самый момент, слёзы ручьём потекли из моих глаз..."
     
-    m "А ещё, я не уверен, всё ещё ли мы в Нью Йорке..."
+    m "А ещё, я не уверена, всё ещё ли мы в Нью Йорке..."
     
-    "Теперь, эти ручьи соплей стекали уже в огромную лужу под моими ногами..."
+    "Теперь, эти ручьи слез стекали уже в огромную лужу под моими ногами..."
     
     show m interested
     
-    m "Но, в концеконцов, если мы найдём какого-нибудь человека где-нибудь по-близости, мы сможем узнать наше точное местонахождение."
+    m "Но, в конце концов, если мы найдём кого-нибудь по-близости, мы сможем узнать наше точное местоположение."
     
     "Я был полным идиотом, когда загадал это желание."
     
@@ -1123,13 +1127,13 @@ label start:
     
     $ renpy.pause(1.0)
     
-    "Не уверен, что хочу здесь больеш находиться..."
+    "Не уверен, что хочу здесь и дальше находиться..."
     
     "Все эти люди выглядят так, будто сошли со страниц моего учебника по истории."
     
     "Кажется, я даже помню ту главу..."
     
-    "Пуританцы..."
+    "Пуритане..."
     
     j "Ты шутишь."
     
@@ -1138,7 +1142,7 @@ label start:
     
     m "Что?"
     
-    j "Мы находимся в одном из поселений этих самых Пуританцев. {w=1} 250 лет назад, как-никак."
+    j "Мы находимся в одном из поселений этих самых Пуритан. {w=1} 250 лет назад, как-никак."
     
     show m interested
     with dissolve
@@ -1168,7 +1172,7 @@ label start:
     
     slow ".............."
     
-    "Я слышу звуки рубящихся деревьев."
+    "Я слышу как рубят деревья."
     
     play sound "swing.wav"
     
@@ -1200,7 +1204,7 @@ label start:
     
     goody "Судя по всему, не плохая идея. Ну, хорошего вам дня."
     
-    "Какие же они нудные... Нарубить дров и сходить в церковь... Им больше говорить не о чем?"
+    "Какие же они нудные... Нарубить дров и сходить в церковь... Им больше поговорить не о чем?"
     
     j "(Тцццц! План уже придумала?)"
     
@@ -1214,7 +1218,7 @@ label start:
     
     "*сверкает*"
     
-    "Эй, смотри. Какой-то другой мужчина идёт по дороге."
+    "Эй, смотри. Еще какой-то мужчина идёт по дороге."
     
     pman "Доброго вам дня, Мистер Проктор."
     
@@ -1261,7 +1265,7 @@ label start:
     stop music
     play music "memory.mp3"
     
-    m "(Мы ухватимся за самую короткую нить, ведущую в будущее.  Таким образом, мы перепрыгнем через малый промежуток времени, и, в конечном счёте, опять окажемся в 1905 году,  как раз перед тем как решили переместиться во времени.)"
+    m "(Мы ухватимся за самую короткую нить, ведущую в будущее.  Таким образом, мы перепрыгнем через малый промежуток времени, и, в конечном счёте, опять окажемся в 1905 году, как раз перед тем как решили переместиться во времени.)"
     
     j "(Это сработает?)"
     
@@ -1280,7 +1284,9 @@ label start:
     
     show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
 
+
     $ renpy.pause(1)
+
 
     hide magic_circle
     
@@ -1428,6 +1434,7 @@ label start:
     show seventeenseventyeightbig
     with dissolve
 
+
     $ renpy.pause(2.0)
     
     scene bg black
@@ -1462,7 +1469,7 @@ label start:
     play sound "gun.wav"
     $ renpy.pause(0.5)
     
-    "И вот, я опять на траве..."
+    "И вот, я снова на траве..."
     
     "Только на этот раз, я очнулся от звуков выстрелов."
     
@@ -1503,7 +1510,7 @@ label start:
     
     "Я прервался."
     
-    "Эта надоедливая девчёнка... схватилась за мою рубашку."
+    "Эта надоедливая девчонка... схватилась за мою рубашку."
     
     "Хмм... Что я тут делаю..."
     
@@ -1519,7 +1526,7 @@ label start:
     show m yelling
     with dissolve
     
-    m "Н-ничего, Я толкьо что свалилась, вот и все."
+    m "Н-ничего, Я только что свалилась, вот и все."
     
     show m angry
     with dissolve
@@ -1550,9 +1557,9 @@ label start:
     
     "Я один среди деревьев..."
     
-    "А вокруг меня, люди палят из ружьев."
+    "А вокруг меня, люди палят из ружий."
     
-    "И единственная, кто могла меня вернуть назад... свалила, обидившись на мой глупое замечание..."
+    "И единственная, кто могла меня вернуть назад... свалила, обидевшись на мой глупое замечание..."
     
     j "*сверк*"
     
@@ -1580,13 +1587,13 @@ label start:
     hide m yelling
     with dissolve
     
-    "Гррр, те лузеры....."
+    "Гррр, те неудачники....."
     
     s1 "Давайте вернём её обратно в лагерь."
     
-    s2 "Подожди, она одета не так как те соладты колонисты...  Она как-то странно одета."
+    s2 "Подожди, она одета не так как те солдаты колонисты...  Она как-то странно одета."
     
-    s1 "Мне без разницы.  Мы притащим её с собой.  The rest of the soldiers haven't had much fun in a while(Другая часть солдат, однажды, получила не особо много удовольствия???)!"
+    s1 "Мне без разницы. Мы возьмем её с собой. У остальных солдат давно не было такого развлечения."
     
     show m yelling
     with dissolve
@@ -1611,7 +1618,7 @@ label start:
     
     "Здесь на земле лежит сумка."
     
-    "И, к счатью для меня..."
+    "И, к счастью для меня..."
     
     "Это сумка тех двоих солдат со сменной одеждой!"
     
@@ -1652,21 +1659,21 @@ label start:
     
     f1 "Британцы ущемляют наши права.  Я говорю, ущемляют."
     
-    f1 "Да дак ущемляют...{w=1} как трава застилает землю!"
+    f1 "Да так ущемляют...{w=1} как трава застилает землю!"
     
     "Э? Как это работает?"
     
-    f2 "Согласен. Мы должны присоединиться к нашим горожанинам и пойти штурмом на их лагерь!  {w=1} Люди со всей страны уже готовы к битве... {w=1}Наш город один из немногих, кто не подчинился им!!!"
+    f2 "Согласен. Мы должны присоединиться к нашим горожанам и пойти штурмом на их лагерь!  {w=1} Люди со всей страны уже готовы к битве... {w=1}Наш город один из немногих, кто не подчинился им!!!"
     
     f1 "Говорю тебе, мы сделаем это сегодня ночью! Встань, и начни созывать людей для восстания!  Восстанем гордо!  Восстанем с силой!"
     
     "... Так, стоп..."
     
-    "Может, я могу использовать это как преимущество!  Если мы пойдём на шторм лагеря, может, я смогу спасти Мелиссу..."
+    "Может, я могу использовать это как преимущество!  Если мы пойдём на штурм лагеря, может, я смогу спасти Мелиссу..."
     
     j "Я хочу присоединиться к вам!"
     
-    "Эти двое посомтрели в мою сторону..."
+    "Эти двое посмотрели в мою сторону..."
     
     j "*сглотнул*"
     
@@ -1705,7 +1712,7 @@ label start:
     
     "Те двое мужчин стояли перед возбуждённой толпой."
     
-    f1 "Сегодня, мы разгромим войска Британцев!  {w=1}Эти жестокие люди падут под нашим пылким наттиском!  {w=1}Ни один бессердечный Британский солдат не переживёт этот день, если не станет молить о том, что ноги его больше не будет на нашей земле!"
+    f1 "Сегодня, мы разгромим войска Британцев!  {w=1}Эти жестокие люди падут под нашим пылким натиском!  {w=1}Ни один бессердечный Британский солдат не переживёт этот день, если не станет молить о том, чтоб ноги его больше не будет на нашей земле!"
     
     "Хорошо сказал."
     
@@ -1791,21 +1798,21 @@ label start:
     show m embarrassed
     with dissolve
     
-    "She finally gets off of me and brushes herself off."
+    "Наконец-то она слезла с меня и отряхнулась."
     
     show m happy
     with dissolve
     
-    m "Well, I think I've recovered enough for us to make another time jump."
+    m "Чтож, думаю я достаточно восстановилась чтобы перенести нас во времени."
     
-    j "Wait..."
+    j "Подожди..."
     
     show m interested
     with dissolve
     
-    m "Hmm?"
+    m "Ммм?"
     
-    "A few gunshots are heard outside."
+    "Снаружи послышались выстрелы."
     
     play sound "gun.wav"
     $ renpy.pause(0.2)
@@ -1813,33 +1820,35 @@ label start:
     play sound "gun.wav"
     $ renpy.pause(0.5)
     
-    j "Well...{w=1} I'm sorry!"
+    j "Ну...{w=1} Я сожалею!"
     
-    j "I was being insensitive before! Please forgive me!"
+    j "Я был бесчувственным! Прости меня!"
     
     hide m interested
     with dissolve
     
-    "I kneel down in supplication."
+    "Я опустился на колени моля о прощенииn."
     
-    "I hear her giggle."
+    "И услышал смешок."
     
     show m happy
     with dissolve
     
-    m "Forgiven!"
+    m "Прощен!"
     
-    "She takes my hand once more."
+    "Она снова взяла меня за руку."
     
-    m "Let's go!"
+    m "Вперед!"
     
     show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
     
-    j "Maybe... she isn't so annoying after all..."
+    j "Возможно... она не такая уж и надоедливая..."
     
     show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
 
+
     $ renpy.pause(1)
+
 
     hide magic_circle
     
@@ -2008,30 +2017,30 @@ label start:
     with dissolve
     play music "comfort.mp3"
     
-    "So, where are we now..."
+    "И где мы теперь..."
     
     ".........."
     
-    "There's a pond in front of us."
+    "Перед нами раскинулось озеро."
     
     scene bg pond
     show m thinking
     with dissolve
     
-    m "I have no clue."
+    m "Без понятия."
     
-    "I see someone walking down the path."
+    "Я заметил как кто-то спускается по тропинке."
     
     play music "connorstheme.mp3"
     
-    o "Yo, man, what's up?"
+    o "Привет чувак, чё да как?"
     
     show m yelling
     with dissolve
     
-    m ".... excuse me?"
+    m ".... простите?"
     
-    o "You guys here to party with me and the trees?"
+    o "Вы чуваки здесь для того чтобы замутить вечеринку со мной и деревьями?"
     
     show m angry
     with dissolve
@@ -2041,29 +2050,29 @@ label start:
     show m thinking
     with dissolve
     
-    m "We're just trying to find out where we are."
+    m "Мы просто пытаемся понять где мы сейчас находимся."
     
-    o "You're at the one and only Walden Pond!  The only spot to chill.  My name's Connor.  You can call me Connor."
+    o "Вы рядом с единственным и неповторимым Уолденским Озером!  Единственное место для отдыха. Меня зовут Коннор. Можете называть меня Коннор."
     
-    j "..... Why.... are you wearing..."
+    j "..... Почему.... на тебе..."
     
-    j "all plaid?"
+    j "плед?"
     
-    c "Cuz I do what I want, mahn.  I {w=.5}{i}am{/i} {w=0.5}my {w=0.5}own {w=0.5}man."
+    c "Потому что я творю, что хочю, чувак.  Я {w=.5}{i}сам{/i} {w=0.5}по {w=0.5}себе {w=0.5}чувак."
     
-    c "I bathe when I want, I eat when I want, I sleep when I want, and I do just anything when I want."
+    c "Я моюсь, когда Я хочу, я ем, когда Я хочу, я сплю, когда Я хочу и я делаю все, что Я хочу, когда хочу."
     
     show m smug
     with dissolve
     
-    m "Oh really?"
+    m "Правда?"
     
-    c "Well, actually, I don't bathe, but everything else is true."
+    c "Ну, по правде говоря, я не моюсь, но остальное сущая правда."
     
     show m surprised
     with dissolve
     
-    m "Oh dear..."
+    m "О боже..."
     
     mslow ".........."
     
@@ -2071,15 +2080,15 @@ label start:
     show m shocked
     with hpunch
     
-    "Did he just.... {w=0.5}hit her.... {w=0.5}in the...............?"
+    "Он просто .... {w=0.5}толкнул ее.... {w=0.5}в...............?"
     
-    c "Yea, girl!"
+    c "Да, детка!"
     
     m ".................."
     
-    "Oh no..."
+    "О нет..."
     
-    "I feel danger coming..."
+    "Кажется сейчас что-то будет..."
     
     show m embarrassed
     with dissolve
@@ -2089,179 +2098,181 @@ label start:
     show m yelling
     with dissolve
     
-    m "You jerk."
+    m "Ты ублюдок."
     
-    c "Whoa, whoa, what's with the hate?  No hatin', man!  Where's the love?"
+    c "Оу, оу, что это за злоба? Никакой ненависти, чувак! Где любовь?"
     
-    "I feel tugging at my hand."
+    "Я почувствовал как меня дергают за руку."
     
-    m "C'mon, we're leaving this good-for-nothing loser."
+    m "Давай,  мы уходим от этого никчемного неудачника."
     
-    c "Hey, you leavin' already?  The party's only just started!"
+    c "Эй, вы что уже уходите? Вечеринка же только началась!"
     
-    m "As far as I'm concerned, there is no 'party' here."
+    m "Насколько я могу судить, «вечеринкой» здесь и не пахнет."
     
-    j "You're one of the biggest bums I've ever met... But I like it!  Please teach me how you live like this!"
+    j "Вы самые клевые бомжи каких я когда либо встречал… Но мне нравится это! Прошу вас научите меня жить так же как и вы!"
     
-    "The hand that was grasping mine suddenly lets go."
+    "Мою руку внезапно отпустили."
     
     play sound "punch.wav"
     scene bg pond
     show m angry
     with vpunch
     
-    m "You insensitive prick!"
+    m "Ты бесчувственный урод!"
     
-    "She storms off again."
+    "И снова разразилась буря."
     
     hide m angry
     with dissolve
     
-    c "Can I take your woman now?"
+    c "Могу я теперь взять твою женщину?"
     
-    j "....Eh?"
+    j "....Э?"
     
-    c "I mean, she ain't yours any more, right?"
+    c "Она же теперь не твоя, так?"
     
-    "This guy {i}is{/i} kind of irritating now."
+    "Этот парень сейчас{i}ужасно{/i} бесит."
     
-    "Hmm?"
+    "Ммм?"
     
-    "I think I hear yelling in the distance."
+    "Кажется я услышал крик неподалеку."
     
-    m "I WAS NEVER HIS IN THE FIRST PLACE!"
+    m "Я ВСЕГДА НА ВТОРОМ МЕСТЕ!"
     
-    "Oh. Ouch."
+    "Ой."
     
-    c "She burned you like.... {w=2}never mind, mahn."
+    c "Она поджарила тебя как.... {w=2}в общем не важно, чувак."
     
-    c "Well, my job here's done.  Remember, don't do everything people ask of you.  Civil disobedience, my mahn, civil disobedience.  That's how I roll."
+    c "Ну чтож свою работу я здесь закончил. Помни, не делай все что тебе говорят. Гражданское неповиновение, чувак, гражданское неповиновение. Вот как я живу."
     
-    "I definitely hate him now."
+    "Я определенно его ненавижу."
     
-    "Well, at least he left... chasing a squirrel."
+    "Ну, в конце концов, он сбежал... преследуя белку."
     
     stop music
     play music "comfort.mp3"
     
     slow "..."
     
-    "Now where could she be..."
+    "Где она сейчас может быть..."
     
     scene bg pond2
     with dissolve
     
-    "Ah, there she is."
+    "А, вот она."
     
     show m embarrassed
     with dissolve
     
-    "She's looking out onto the pond."
+    "Она смотрит на пруд."
     
-    "Come to think of it, the view is pretty nice here."
+    "Если подумать, то вид здесь действительно красивый."
     
-    "It almost makes me want to forget why I'm here in the first place..."
+    "Это заставляет расслабиться и забыть зачем я здесь..."
     
-    "Wait, why am I here?"
+    "Стоп, почему я здесь?"
     
-    "For Gladys?"
+    "Ради Глэдис?"
     
-    "I'm not sure any more."
+    "Я больше не уверен в этом."
     
-    "Our arranged marriage... did it really mean that much to me?"
+    "Наша свадьба... неужели она столько заначила для меня?"
     
     show m interested
     with dissolve
     
-    m "Hey..."
+    m "Эй..."
     
-    "Oh, she noticed I was here."
+    "О, она заметила, что я здесь."
     
-    j "I'm sorry about that back there..."
+    j "Извини, что все так обернулось..."
     
-    j "I keep screwing up and pissing you off, don't I..."
+    j "Я подвел и расстроил тебя, ведь так..."
     
     show m embarrassed
     with dissolve
     
-    m "Nah, it's not your fault.  I just have a short temper."
+    m "Хах, это не твоя вина. Я слишком впыльчивая."
     
-    "We sit in a comfortable silence."
+    "Мы сидели в приятной тишине."
     
-    "She looks radiant in the light of the sun..."
+    "Она выглядела ослепительно в лучах солнца..."
     
-    m "I've never been alone with a guy like this before..."
+    m "Я никогда не была наедине с парнем так как сейчас..."
     
-    m "Went to an all girls school, quit and starting working for a factory..."
+    m "Пошла в школу для девочек, выпустилась и начала работать на фабрике..."
     
-    "Oh, fun.  Manual labor."
+    "О, весело.  Ручной труд."
     
-    m "What about you?"
+    m "А ты?"
     
-    "Crap."
+    "Черт."
     
-    j "Me?  I've had plenty of experience with women!"
+    j "Я?  У меня большой опыт с женщинами!"
     
-    "I stick out my chest."
+    "Я гордо выпятил грудь."
     
     "..."
     
-    j "A-Actually, this is the first time I've been alone with a girl, too."
+    j "В-вообще-то, для меня это тоже первый раз, когда я с девушкой наедине."
     
-    "Another comfortable silence settles in, as we stare out into the sunset."
+    "И снова мы сидели в приятной тишине смотря на заход солнца."
     
     hide m embarrassed
     with dissolve
     
-    "I feel something on my shoulder."
+    "Я почувствовал, что-то на своем плече."
     
-    "Melissa's fallen asleep, and is sleeping peacefully on my shoulder."
+    "Мелисса мирно заснула на моем плеч."
     
-    "This is pleasant, I guess.  Absolute pea-"
+    "Это приятно. Абсолютный по-"
     
     stop music
     play music "connorstheme.mp3"
     
-    c "Where's the lovin'?"
+    c "Где любовь?"
     
-    "Eh?"
+    "Что?"
     
-    "I look up to where the noise came from."
+    "Я повернулся в поисках звука."
     
     scene bg treetop
     with dissolve
     
-    c "Hey mahn!"
+    c "Эй чувак!"
     
-    "Crap..... is he.... hanging from the tree???"
+    "Черт..... он, что.... с дерева???"
     
-    "I think he caught the squirrel, too..."
+    "Я думаю он и белку поймал..."
     
-    c "Quite a view from up here, if you know what I mean."
+    c "Прекрасный вид отсюда, ну ты понимаешь о чем я."
     
     scene bg pond2
     with dissolve
     
-    m "I think we should leave."
+    m "Кажется нам пора."
     
     show m angry
     with dissolve
     
-    "Oh, she's awake."
+    "О, она проснулась."
     
-    m "Here, take my hand, quick, before he does something stupid."
+    m "Вот, держись за руку, быстрее, пока она не натвориль каких-нибудь глупостей."
     
-    c "Where you going, mahn?"
+    c "Куда вы, чуваки?"
     
-    j "Yeah, I second that idea."
+    j "Да, я поддерживаю эту идею."
     
     show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
     
-    "I take her hand, and hope we go somewhere more... normal."
+    "Я взял ее за руку, надеясь, что следующее месту будет более... нормальным."
     
     show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
 
+
     $ renpy.pause(1)
+
 
     hide magic_circle
     
@@ -2374,6 +2385,7 @@ label start:
     show eighteenseventyfivebig
     with dissolve
 
+
     $ renpy.pause(2.0)
     
     scene bg black
@@ -2381,177 +2393,177 @@ label start:
     
     $ renpy.pause(1.0)
     
-    j "(Please don't be a creepy place.  Please don't be a creepy place.)"
+    j "(Пожалуйста пусть это не будет жуткое место. Только не жуткое место. Не жуткое.)"
     
-    "I cautiously open my eyes."
+    "Я с опаской открыл глаза."
     
     show bg street2
     with dissolve
     play music "closetoreality.mp3"
     
-    "Hmm, this looks familiar."
+    "Хмм, где-то я уже это видел."
     
     show m thinking
     with dissolve
     
-    m "It's seems we're back in New York."
+    m "Похоже мы вернулись в Нью-Йорк."
     
-    j "HOME!!!!!!!!!!"
+    j "ДОМ!!!!!!!!!!"
     
     show m pointing
     with dissolve
     
-    m "No, we're still 30 years too early."
+    m "Нет, мы все еще на 30 лет позади."
     
-    "Damn."
+    "Черт."
     
     show m interested
     with dissolve
     
-    m "Let's look around a bit.  I need time to recover before we make our next trip."
+    m "Давай осмотримся. Мне нужно время на восстановление до нового прыжка во времени."
     
-    "Ah. That explains why we haven't been going any faster..."
+    "А. Это объясняет почему мы замедлились..."
     
     show m happy
     with dissolve
     
-    m "We should be back in our time with the next jump!"
+    m "Мы должны попасть в наше время со следующим прыжком!"
     
     j "Yay! Woohoo! Yippee!"
     
-    "Absolute sarcasm."
+    "Абсолютный сарказм."
     
     show m angry
     with dissolve
     
-    "Oops."
+    "Упс."
     
-    j "....I don't want to go home..."
+    j "....Я не хочу возвращаться домой..."
     
     show m yelling
     with dissolve
     
-    m "What do you mean, you don't want to go home?"
+    m "Что это значит «не хочу возвращаться домой»?"
     
-    j "Well... This is just so much more fun than back home!"
+    j "Ну... Тут намного больше веселья чем дома!"
     
     hide m yelling
     with dissolve
     
-    "I mean, what did I do back home?"
+    "Я имею ввиду, что меня ждет дома?"
     
-    "My life was pretty pointless."
+    "Моя жизнь была практически бессмысленной."
     
-    "Going to college, studying things that I frankly didn't care much about."
+    "Поступление в колледж, зубрежка предметов до которых, если по-честному, мне и дела-то нет."
     
-    "I'd much rather be writing my thoughts out, than reading what other people's thoughts are and taking them to heart."
+    "Я бы с большим удовольствием записывал бы свои идеи, чем читал бы, что думают другие и принимал их мысли."
     
-    "I barely experienced what nature had to offer, even though that's what I wished for."
+    "Я едва почувствовал, то что природе пришлось предложить, но это именно то что мне и нужно."
     
-    "I had no sight of my own future from where I was."
+    "Я не видел своего будущего там где я был."
     
-    "Everyone thinks about the future and should have somewhat of a vision of their own.  {w=2}Yet, no matter how hard I tried, I could not see one for myself."
+    "Все думали о будущем и должны были иметь хоть какое-то представление о том как будут жить дальше. {w=2}Хотя, как бы я не старался, я так и не смог увидеть ничего для себя."
     
-    "My marriage was supposed to be a future that I could finally grasp.  But did I?"
+    "Мой брак должен был стать тем будущим за которое я бы смог ухватиться. Но так ли это?"
     
     j "*sigh*"
     
     show m embarrassed
     with dissolve
     
-    m "You know, this can't last forever..."
+    m "Ты знаешь это не может продолжаться вечно..."
     
-    m "The whole reason we're here is because we're trying to save your fiancé."
+    m "Основная причина по которой мы здесь это спасение твоей невесты."
     
-    j "I know."
+    j "Я знаю."
     
-    "I know that the things that have happened in the last few days have been different enough for a vision of myself to finally appear."
+    "Я знаю, что те вещи, что случились в последние несколько дней были совершенно иными настолько чтобы я смог увидеть и понять себя."
     
     show m interested
     with dissolve
     
-    m "Let's go then!  We'll find a place to rest."
+    m "Чтож тогда вперед!  Найдем место для отдыха."
     
     scene bg bar2
     with dissolve
     stop music
     play music "reality.mp3"
     
-    "It's the same bar as the one I visited in my time."
+    "Это тот же бар в который я зашел тогда в своем времени."
     
-    "But now, it's just been built."
+    "Но сейчас здание совершенно новое."
     
     show m thinking
     with dissolve
     
-    m "Let's sit down at that table over there."
+    m "Давай присядем вон за тот столик."
     
-    "We sit, and soon after..."
+    "Мы присели и скоро..."
     
     hide m thinking
     with dissolve
     
-    "...she falls asleep."
+    "...она уснула."
     
-    "Again."
+    "Снова."
     
-    "On my shoulder."
+    "На моем плече."
     
     slow "........."
     
-    "Let's try poking her."
+    "Попробую проверить."
     
     play sound "poke.wav"
     
     "*poke*"
     
-    "Guess she's completely asleep."
+    "Похоже она глубоко уснула."
     
-    d "I see the truth in this world!"
+    d "Есть правда в этом мире!"
     
-    "Huh?"
+    "А?"
     
-    d "All this stuff out there {w=0.5}*hic*{w=0.5} is an illusion.  All that stuff people think that we can reach{w=0.5} *hic* {w=0.5}can NEVER be reached by humanity."
+    d "Весь этот хлам здесь {w=0.5}*hic*{w=0.5} просто иллюзия. Все эти люди думают, что мы сможем чего-то достичь{w=0.5} *hic* {w=0.5} гумманностью НИКОГДА не достичь."
     
-    "Oh yay, a drunk guy."
+    "Ох-ё, пьяный мужик."
     
-    "I unconsciously tighten my hold on Mel."
+    "Я бессознательно прижал Мэлл к себе."
     
-    "Wait, when did my arm..."
+    "Стоп, когда моя рука..."
     
-    d "Hey,{w=0.5} you there, {w=0.5}sonny, what do{w=0.5} *hic* {w=0.5}you think about this world?"
+    d "Эй,{w=0.5} ты там, {w=0.5}парень, что ты{w=0.5} *hic* {w=0.5}думаешь об этом мире?"
     
-    "Uhh.........."
+    "Ох.........."
     
-    j "It's perfectly miserable."
+    j "Он абсолютно убог."
     
-    "Please don't notice I'm lying..."
+    "Пожалуйста только не заметь ложь..."
     
-    d "EXACTLY!"
+    d "ТОЧНО!"
     
-    "Thank God..."
+    "Слава Богу..."
     
-    d "Look at this world.  We make all these pretty paintings and flowery writing to describe what isn't real!"
+    d "Только посмотри на мир. Мы пишем все эти прелестные картины и  тексты чтобы описать то чего нет!"
     
-    d "Is what you see out there {i}anything{/i} like what you read or view in art?"
+    d "Неужели то что ты видишь снаружи {i}любая вещь{/i} хотя бы немного соответствует тому что отражается в картинах или строках?"
     
-    "It seems fine to me..."
+    "Я ничего против не имею..."
     
-    d "The discomforting silence outside is the embodiment of our world's suppression and poverty in wealth and spirit."
+    d "Неловкая тишина снаружи это воплощение угнетения и нищеты здоровья и духа нашего мира."
     
-    "Ah, the peace and quiet of night..."
+    "Ах, тишина и спокойствие ночи..."
     
-    "The man sighs and takes another swig from a huge cup."
+    "Мужчина вздохнул и сделал большой глоток из огромной кружки."
     
-    d "Look at me...  Fallen from trying so hard to escape my father's lowly business of blacksmithing."
+    d "Посмотри на меня...  Растоптаный после бесконечных попыток избежать кузнечного дела моего отца."
     
-    d "The business world... is so cruel."
+    d "Мир бизнеса... слишком жесток."
     
-    "I drink to my health, oblivious to the man's plight."
+    "Я пью за свое здоровье безразличный к тяжелой участи человека."
     
-    "No, wait, 'completely apathetic' seems to be a better phrase than 'oblivious.'"
+    "Нет, погоди, 'абсолютно равнодушный' звучит лучше чем 'безразличный.'"
     
-    d "My fortune..."
+    d "Моя судьба..."
     
     play sound "clink1.wav"
     
@@ -2561,33 +2573,33 @@ label start:
     
     $ renpy.pause(0.2)
     
-    "I count out enough bills and coins to pay for the drink... making sure it's dated before 1875..."
+    "Я заработал достаточно купюр и монет чтобы заплатить за выпивку... что бы быть достаточно уверенным, что она произведена до 1875..."
     
-    d "Why is life so unfair... I just wanted to escape..."
+    d "Почему жизнь так несправедлива... Я просто хотел освободиться..."
     
-    "Ha.  Escape."
+    "Ха. Свобода."
     
-    "I guess I can kind of see where this man is coming from..."
+    "Я думаю я могу понять откуда этот мужчина..."
     
-    "Just a little."
+    "Просто немного."
     
-    "Hmm..."
+    "Хмм..."
     
-    d ".........unfair....."
+    d "........несправедливо....."
     
-    "Mel is still sleeping."
+    "Мэл все еще спит."
     
-    "How should I wake her up..."
+    "Как же мне ее разбудить..."
     
-    "Let's try poking her again!"
+    "Попробую потыкать ее снова!"
     
     play sound "poke.wav"
     
     "*poke*"
     
-    "...Nope."
+    "...Ничего."
     
-    "Super Triple Poke!"
+    "Супер Тройной Тычок!"
     
     play sound "poke.wav"
     
@@ -2604,11 +2616,11 @@ label start:
     
     "*poke* *poke* *poke*"
     
-    m ".....umyu........."
+    m ".....умья........."
     
-    "...What kind of noise was that...?"
+    "...Это что за звук был...?"
     
-    "That's it!"
+    "Вот оно!"
     
     play sound "poke.wav"
     
@@ -2644,21 +2656,21 @@ label start:
     
     "*poke* *poke* *poke* *poke* *poke* *poke* *poke* *poke*"
     
-    m "Eh?!?"
+    m "Э?!?"
     
     show m surprised
     with dissolve
     
-    m "What happened?!?"
+    m "Что случилось?!?"
     
-    j "Nothing, nothing, you ready to leave?"
+    j "Ничего, ничего, ты готова идти?"
     
     show m angry
     with dissolve
     
-    m "I was sleeping!"
+    m "Я спала!"
     
-    j "Well I kind of want to get back home..."
+    j "Ну я просто уже захотел домой..."
     
     show m thinking
     with dissolve
@@ -2667,24 +2679,26 @@ label start:
     
     play music "memory.mp3"
     
-    m "Fine, be that way."
+    m "Хорошо, сюда."
     
-    "She grabs the tips of my fingers, and I ready myself to go back home..."
+    "Она взяла меня на кончики пальцев и я приготовился вернуться обратно домой..."
     
     show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
     
-    "Wait, is that my wallet on the table?"
+    "Стой, это мой бумажник на столе?"
     
-    "Let me just grab it..."
+    "Подожди-ка я его прихвачу..."
     
     show m yelling
     with dissolve
     
-    m "What are you doing!"
+    m "Ты что творишь!"
     
     show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
 
+
     $ renpy.pause(1)
+
 
     hide magic_circle
     
@@ -2844,43 +2858,43 @@ label start:
     scene bg black
     with dissolve
     
-    "Whoa....!"
+    "Ого....!"
     
     show bg timessquare
     with dissolve
     play music "startlingfuture.mp3"
     
-    j "Mel... Where are we?"
+    j "Мэлл... Где мы?"
     
-    "...wait..."
+    "...стоп..."
     
-    j "Mel?"
+    j "Мэл?"
     
     slow "..........."
     
-    slow "Oh no...."
+    slow "О нет...."
     
-    "You're kidding me..."
+    "Вы наверное шутите..."
     
-    "Ha...ha.......ha................."
+    "Ха...ха.......ха................."
     
-    "I'm frozen in shock."
+    "Я застыл в шоке."
     
     slow "........"
     
     play sound "glass.wav"
     
-    "Eh?"
+    "Э?"
     
-    "Someone just... threw a coin at my feet."
+    "Кто-то только что... уронил монетку к моим ногам."
     
-    lg "Mommy, the strange looking man didn't move when I gave him a coin!"
+    lg "Мама, странный мужчина не взял монетку которую я ему кинул!"
     
-    mo "Hmm. That's weird.  Hey, mister, are you actually going to do something?"
+    mo "Хм. Странно. Эй, мистер, вы собираетесь что-нибудь делать?"
     
-    "Uh oh..."
+    "Ох-хо..."
     
-    "I run."
+    "Я сбежал."
     
     play sound "run.wav"
     
@@ -2888,33 +2902,33 @@ label start:
     show bg cinema
     with dissolve
     
-    "Where am I now?"
+    "Где же я теперь?"
     
-    "Oh crap."
+    "О черт."
     
-    "I guess the people in the front noticed that I didn't pay for entrance... to whatever this place is."
+    "Кажется люди впереди заметили, что я не заплатил за проход... что за место это не было бы."
     
-    "I sink into one of the seats."
+    "Я проскользнул на одно из кресел."
     
     "..."
     
-    "Eventually the guards give up."
+    "В конце концов охрана сдалась."
     
-    j "Phew."
+    j "Фух."
     
-    "Now what..."
+    "Теперь что..."
     
-    "This isn't good."
+    "Это плохо."
     
-    "I'm not even sure how far into the future I am."
+    "Я не уверен насколько далеко в будущее я попал"
     
-    "Mel..."
+    "Мэлл..."
     
-    "I NEED YOU!!!!"
+    "ТЫ МНЕ НУЖНА!!!!"
     
-    "Even though I'd probably NEVER say that to her face."
+    "Даже если я НИКОГДА ей этого не говорил."
     
-    "I actually kind of miss her though."
+    "Я все равно по ней скучаю."
     
     "..."
     
@@ -2924,20 +2938,21 @@ label start:
     nvl clear
     nvl show dissolve
     
-    nvlj "AH!!!!"
-    nvlt "The people in the seats in front of me turn in annoyance."
-    nvlj "Ehehe... It's nothing..."
-    nvlt "Thank God it's dark in here and they can't see my clothes."
-    nvlt "But why aren't they reacting like I am!?!?"
-    nvlt "There are people moving on the screen in the front!"    
+    nvlj "ААА!!!!"
+    nvlt "Люди на передних местах передо мной обернулись на звук."
+    nvlj "Хехе... все хорошо..."
+    nvlt "Слава Богу здесь темно и они не могут разглядеть мою одежду."
+    nvlt "Но почему они не реагируют так же как и я!?!?"
+    nvlt "Там же люди передвигаются по экрану!"    
     nvlt "..."
-    nvlt "What is this...?"
-    nvlt "Maybe it's one of those motion pictures that they had back in my time..."
-    nvlt "But there's sound... and color!"
+    nvlt "Что за...?"
+    nvlt "Возможно это одни из тех подвижных картин, которые должны появиться в мое время..."
+    nvlt "Но здесь звук... и цвет!"
     nvlt "..."
-    nvlt "Is this based on reality?"
-    nvlt "....Wow, so corruption exists even in the future..."
-    nvlt "Maybe I should slip out of here now..."
+    nvlt "Неужели это основанно на реальности?"
+    nvlt "....Вот это да, неужели корупция существует даже в будущем..."
+    nvlt "Может мне лучше свалить отсюда сейчас..."
+
 
     nvl hide dissolve
     
@@ -2950,56 +2965,59 @@ label start:
     with dissolve
     play music "startlingfuture.mp3"
 
-    "I'm dodging the crowds to avoid an encounter like the one before..."
+
+    "Я увоворачивался от толпы стараясь ни с кем не столкнуться как получилось до этого..."
     
     scene bg timessquare
     with vpunch
     stop music
     
-    "Owww, my collar!"
+    "Ооо, мой воротник!"
     
     show m angry
     with dissolve
     
-    m "Where were you!??!?"
+    m "Где ты!??!?"
     
-    m "Don't you ever stay in one place!?!??"
+    m "Почему ты никогда не стоишь на месте!?!??"
     
     show m embarrassed
     with dissolve
     
-    m "I was worried about you..."
+    m "Я переживала..."
     play music "comfort.mp3"
     
-    "Awww... that's heatwarming."
+    "Ах... на сердце потеплело."
     
-    j "Well, I wasn't-"
+    j "Ну я не-"
     
-    "Wait, think before I speak..."
+    "Стом, сначала думай, а потом говори..."
     
-    j "I was worried about you, too."
+    j "Я тоже переживал."
     
     m "..."
     
-    "I think my face is heating up a bit."
+    "Кажется я немного покраснел."
     
     show m interested
     with dissolve
     
-    m "Well, we can get going now, can't we?"
+    m "Чтож, мы сейчас можем идти?"
     
-    j "Off to 1905!"
+    j "Назад в 1905!"
     
     show m happy
     with dissolve
     
     show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
     
-    m "Yep!"
+    m "Да!"
     
     show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
 
+
     $ renpy.pause(1)
+
 
     hide magic_circle
     
@@ -3132,6 +3150,7 @@ label start:
     show nineteentwentyfivebig
     with dissolve
 
+
     $ renpy.pause(2.0)
     
     scene bg black
@@ -3143,22 +3162,22 @@ label start:
     with dissolve
     play music "darkness.mp3"
     
-    "This is dark and gloomy..."
+    "Тут темно и мрачно..."
     
-    j "Where the hell are we?"
+    j "Где, черт побери, мы?"
     
     show m thinking
     with dissolve
     
-    m "Well, I think we're in 1925."
+    m "Ну я думаю в 1925."
     
     j "..."
     
-    j "Where should we go while you recover?"
+    j "Куда пойдем чтобы ты восстановилась?"
     
-    m "There seems to be something going on over there.  Let's go!"
+    m "Там кажется что-то происходит. Идем!"
     
-    "I get dragged along to the party..."
+    "Меня протащили через вечеринку..."
     
     stop music
     
@@ -3168,52 +3187,53 @@ label start:
     
     play music "party.mp3"
     
-    "What is this place...?"
+    "Что это за место...?"
     
-    "Let's ask this random woman!"
+    "Давай спросим эту женщину!"
     
-    j "Hey, do you know where we are?"
+    j "Эй, вы не подскажите где мы?"
     
-    w "You're at the party!"
+    w "Вы на весеринке!"
     
-    "She runs off screaming and jumps into the pool... with a vodka glass in her hand."
+    "Она с криком разбежалась и нырнула в бассейн... со стаканом водки в руке."
+
 
     stop music
     
-    "Wait, there's someone else in the pool... in a plaid bathing suit."
+    "Стоп, там кто-то еще в бассейне... в кледчатом купальнике."
     
-    "With an inflatable... shark?"
+    "С надувной... акулой?"
     
     play music "connorstheme.mp3"
     
     "..."
     
-    "I feel impending doom..."
+    "Я чувствую безысходность..."
     
-    "Wait, what is he holding...????"
+    "Подождите, что он держит...????"
     
     "..."
     
-    "This man looks too familiar..."
+    "Где-то я его уже видел..."
     
-    o2 "Wassssssssssssup, mahn?"
+    o2 "Каааак дела, чувак?"
     
-    o2 "I'm the host of this party, mahn!"
+    o2 "Я хозяин этой вечиринки, чувак!"
     
     slow ".............."
     
     show m surprised
     with dissolve
     
-    m "You wouldn't happen to be... Connor, would you...?"
+    m "Вы случайно не... Коннор, ты ли это...?"
     
-    o2 "No, that was my good ol' grandfather.  I,"
+    o2 "Нет, это был мой старый добрый дед. Я же"
     
-    "He bows."
+    "Он поклонился."
     
-    o2 "am Connor, Jr. {w=1.0} Jr."
+    o2 "Коннор {w=1.0}младший."
     
-    c2 "I heard my grandfather was a great, honorable, and wise man."
+    c2 "Я слышал мой дед был великим, благородным и мудрым человеком."
     
     jslow "...."
     
@@ -3222,70 +3242,70 @@ label start:
     
     mslow "...."
     
-    jslow "Right...."
+    jslow "Верно...."
     
-    c2 "You likin' the party, my mahn?"
+    c2 "Вам нравится вечеринка?"
     
-    "He winks at Mel."
+    "Он подмигнул Мэлл."
     
     show m angry
     with dissolve
     
-    c2 "Want some toast?"
+    c2 "Может тостов?"
     
     scene bg bread at Pan((0, 800), (0, 0), 10.0)
     
-    "What the hell?"
+    "Какого черта?"
     
-    c2 "You know you dig me and my toast."
+    c2 "Знаешь, ты просто закопала меня с моим тостом."
     
     show m yelling
     with dissolve
     
-    mslow "....No."
+    mslow "....Нет."
     
     show m thinking
     with dissolve
     
-    "She mutters under her breath."
+    "Она бормочет себе под нос."
     
-    mslow "Not again..."
+    mslow "Только не снова..."
     
-    j "I'll take some!"
+    j "Я возьму!"
     
-    "I grab a piece of toast."
+    "Я схватил тост."
     
     hide m thinking
     with dissolve
     
-    "...And watch as Mel runs off in a fury."
+    "...И смотрел как Мэлл фурией убегает."
     
     scene bg pool
     with dissolve
     
-    c2 "Right on, mahn."
+    c2 "Правильно, чувак."
     
-    c2 "Where's firefox goin'?"
+    c2 "Куда огненная лисица убежала?"
     
-    j "...The resemblance is uncanny..."
+    j "...Поразительное сходство..."
     
-    c2 "What'd you say?"
+    c2 "Что ты сказал?"
     
-    j "I dunno where's she's going."
+    j "Я без понятия куда она ушла."
     
-    c2 "I hear ya, mahn."
+    c2 "Я слышу, чувак."
     
-    j "So what do you do all day...?"
+    j "А чем ты весь день занимаешься...?"
     
-    "I munch on my piece of bread..."
+    "Я прожевал мой кусок хлеба..."
     
-    c2 "I do everything here.  I party, {w=.5}I drink, {w=.5}I party, {w=.5}I sleep, {w=.5}I party, {w=.5}and so on, {w=.5}mahn.  {w=.5}Life is good."
+    c2 "Я все делаю здесь.  Закатываю вечеринки, {w=.5}пью, {w=.5}отрываюсь, {w=.5}сплю, {w=.5}отрываюсь, {w=.5}и так далее, {w=.5}чувак.  {w=.5}Жизнь прекрасна."
     
-    j ".... Where do you get all the money for this...?"
+    j ".... А где ты на все это берешь деньги...?"
     
-    c2 "Inheritance, murd-{w=2} I mean, well, truth be told, I sell this."
+    c2 "Наследство, уби-{w=2} то есть, по правде, я продал это."
     
-    "He holds up a bottle of... whiskey?"
+    "Он держал в руках... виски?"
     
     scene bg whiskey at Pan((0, 800), (0, 0), 5.0)
     
@@ -3293,9 +3313,9 @@ label start:
     
     j "...."
     
-    j "How can you make money like this from that?"
+    j "Как ты мог сделать день из этого?"
     
-    c2 "Well, you know, with all those prohibitionists out there... There's high demand, my mahn."
+    c2 "Ну знаешь со всеми этими запретами... Спрос очень вырос, мой друг."
     
     scene bg pool
     with dissolve
@@ -3303,47 +3323,47 @@ label start:
     play sound "drink.wav"
     with hpunch
     
-    "He takes a swig."
+    "Он сделал глоток."
     
-    c2 "Want some?"
+    c2 "Будешь?"
     
-    j "No thanks..."
+    j "Нет спасибо..."
     
-    j "I have a long journey home..."
+    j "У меня еще долгая дорога домой..."
     
     jslow "..."
     
-    j "Do you spend {i}all{/i} your money on this?"
+    j "Ты тратишь{i}все{/i} свои деньги на это?"
     
-    c2 "Well...Um... Yea."
+    c2 "Ну...эээ... Да."
     
-    "What a waste..."
+    "Какая бесполезная трата..."
     
-    c2 "I mean, I spend it on... women too!"
+    c2 "Я имею ввиду я их трачу и на... женщин тоже!"
     
-    "Well, not a complete waste..."
-    
-    "..."
-    
-    "No, he {b}is{/b} a complete waste."
+    "Чтож не совсем бесполезная..."
     
     "..."
     
-    "Maybe I should go find Mel..."
+    "Нет он{b}точно{/b} абсолютный транжира."
     
-    "Talking to this guy is sickening..."
+    "..."
+    
+    "Возможно мне стоит пойти поискать Мэлл..."
+    
+    "Мне противно разговаривать с этим парнем..."
     
     j "*sigh*"
     
-    "A woman comes over."
+    "Подошла женщина."
     
-    c2 "Duty calls, my mahn."
+    c2 "Долг зовет, чувак."
     
-    c2 "See ya later, my mahn.  Hope you enjoy yourself."
+    c2 "Увидимся, чувак. Надеюсь ты хорошо отдохнешь."
     
-    "He winks again as he walks off with his stack of toast, his whiskey, and the woman."
+    "Он снова подмигнул когда проходил мимо со своей стопкой тостов, виски и женщиной."
     
-    "And I set off in my search for Mel, again."
+    "А начал свои поиски Мэлл, в очередной раз."
     
     stop music
     scene bg tree
@@ -3351,48 +3371,48 @@ label start:
     
     play music "comfort.mp3"
     
-    "I find Mel... at the trunk of this odd tree."
+    "Я нашел Мэлл... у ствола этого странного дерева."
     
-    "How fitting... an odd tree at the house of a very odd man."
+    "Какое соответствие... странное дерево в доме странного человека."
     
-    "And she's sleeping, again."
+    "И она спала, снова."
     
-    "She looks pretty."
+    "Выглядит мило."
     
-    "I lean in to look at her face."
+    "Я наклонился, чтобы посмотреть на ее лицо."
     
     "..."
     
-    "She seems to be stirring."
+    "Она кажется такой энергичной."
     
-    "She leans forward with her eyes closed..."
+    "Она наклонилась вперед с закрытыми глазами..."
     
-    "Oops."
+    "Упс."
     
-    "Her eyes open quickly and suddenly."
+    "Она неожиданно быстро распахнула глаза."
     
     show m embarrassed
     with dissolve
     
-    "I back away quickly."
+    "Я резко отшатнулся."
     
-    j "S-Sorry."
+    j "Из-звини."
     
-    j "I was gonna wake you up."
+    j "Я хотел тебя разбудить."
     
-    "Ha, what a lie."
+    "Ха, полное вранье."
     
-    m "No, it's ok..."
+    m "Нет, все впорядке..."
     
-    "She mumbles."
+    "Она побормотала."
     
-    m "Should we get going...?"
+    m "Думаю нам уже пора...?"
     
-    "My heart is still beating wildly."
+    "Мое сердце все еще бешенно билось."
     
-    j "Yea."
+    j "Ага."
     
-    "She holds out her hand, and I take it."
+    "Она протянула мне руку и я ухватился за нее."
     
     show magic_circle at RotoZoom(0, 360, 5, 0, 1, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
     
@@ -3400,7 +3420,9 @@ label start:
     
     show magic_circle at RotoZoom(0, 360, 5, 1, 0, 1, rot_repeat=True, rot_anim_timebase=True, opaque=False, xalign=0.5, yalign=0.5)
 
+
     $ renpy.pause(1)
+
 
     hide magic_circle
     
@@ -3528,6 +3550,7 @@ label start:
     show nineteenfivebig
     with dissolve
 
+
     $ renpy.pause(2.0)
     
     scene bg black
@@ -3540,167 +3563,167 @@ label start:
     
     play music "memory.mp3"
     
-    "I'm back.... home.......!!!"
+    "Я вернулся.... домой.......!!!"
     
     show m shocked
     with dissolve
     
-    m "What... What are you doing???"
+    m "Что... Что ты делаешь???"
     
-    j "Eh?"
+    j "А?"
     
-    "I find my lips.... on the ground."
+    "Я сидел и целовал.... землю."
     
-    "I quickly get up, and sheepishly look in the opposite direction."
+    "Я вскочил и смущенно отвернулся."
     
-    j "Just getting used to being back home now..."
+    j "Просто радуюсь возвращению домой..."
     
     show m thinking
     with dissolve
     
-    m "Whatever..."
+    m "Как скажешь..."
     
-    j "Okay, now let's get to saving Gladys!"
+    j "Отлично, а теперь пошли спасать Глэдис!"
     
     hide m thinking
     with dissolve
     
-    "I mean, that's what I've been trying to do, right?  Traveling through all that just to save her?"
+    "Я о том, что ведь все это было ради нее, верно? Это долгое путешествие только чтобы спасти ее"
     
-    "What did we have though?"
+    "О чем мы только думали?"
     
-    "Gladys was my fiancé through an arranged marriage by our parents."
+    "Глэдис была моей невестой по договоренности между нашими с ней семьями."
     
-    "I'd grown attached to her through the various meetings we had..."
+    "Я вырос связанным с ней через все те встречи, которые были у нас..."
     
-    "But why?"
+    "Но почему?"
     
-    "Had I truly loved her?"
+    "Любил ли я ее по-настоящему?"
     
-    "Or was it the fact that our marriage would tie me down, and actually settle my life?"
+    "Или просто этот брак должен был меня с ней связать и дать определенное место в мире?"
     
-    "I'm not so sure any more..."
+    "Я больше ни в чем не уверен..."
     
-    "Was I in love with Gladys, or the concept of marriage?"
+    "Был ли я влюблен в Глэдис или просто мечтал о браке?"
     
-    "Why am I questioning this now, when I can finally change what happened?"
+    "Почему я задаюсь этив вопросом сейчас, когда наконец-то могу изменить свою жизнь?"
     
-    "I glance at Mel as we walk down the street."
+    "Я посмотрел на Мэлл и мы пошли вдоль по улице."
     
     show m embarrassed
     with dissolve
     
-    m "Why are you staring at me?"
+    m "Почему ты на меня уставился?"
     
-    j "Oh, sorry, no reason, really.  Just thinking."
+    j "Ой, извини, просто так, правда. Просто задумался."
     
     hide m embarrassed
     with dissolve
     
-    "I can't deny that I feel attracted to her."
+    "Я не могу отрицать того, что она меня привлекает."
     
-    "Yet, if it wasn't for Gladys's accident, I may have never met her."
+    "Хотя еслибы не несчастный случай с Глэдис я мог бы никогда ее не встретить."
     
-    "She's been trying her hardest to help me save my fiancé."
+    "Она изо всех сил старалась мне помочь спасти мою невесту."
     
-    "Sure, at first, I may have seen her as annoying... person, but..."
+    "Нет, конечно, в первое время она меня... раздражала, но..."
     
-    "Being with her these past few days..."
+    "Пробыв вместе с ней последние несколько дней..."
     
-    "I can't help but feel much more comfortable being with her."
+    "Я не могу отрицать того, что с ней теперь чувствую себя намного комфортнее."
     
-    "I shake these thoughts from my head as we near the bridge."
+    "Я отбросил эти мысли из головы, когда мы дошли до моста."
     
     show m smug
     with dissolve
     
-    m "Well, what should we do now?"
+    m "И что мы теперь будем делать?"
     
-    j "Well..."
+    j "Ну..."
     
-    "I think."
+    "Я думаю."
     
     hide m smug
     with dissolve
     
-    j "Her buggy fell off on the other side of the bridge."
+    j "Ее коляска упал с другой стороны моста."
     
-    j "We have five minutes from now... It's 8:58 AM."
+    j "У нас осталось пять минут... Сейчас 8:58."
     
-    "I look over at my right... to find that Mel is gone."
+    "Я посмотрел на право... и не увидел Мэлл."
     
-    j "Mel???"
+    j "Мэлл???"
     
-    m "Over here!"
+    m "Здесь!"
     
     show m interested
     with dissolve
     stop music
     play music "changethepast.mp3"
     
-    "She waves from a buggy at the side of the road."
+    "Она помахала из коляски на обочине у дороги."
     
-    m "We can take this!"
+    m "Мы можем поехать на ней!"
     
     hide m interested
     with dissolve
     
-    j "Wait, that isn't ours..."
+    j "Подожди, это же не наша..."
     
-    "I'm stopped mid-sentence as I feel a hand grab me by the collar."
+    "IЯ запнулся на полуслове, когда почувствовал как рука ухватила меня за воротник."
     
-    "I'm flying through the air..."
+    "Я полетел по воздуху..."
     
-    "Wait, when did the buggy get this close to me...?"
+    "Подождите, когда коляска успела подъехать так близко...?"
     
-    j "MEL!??!?"
+    j "Мэлл!??!?"
     
     show m angry
     with dissolve
     
-    "She has me by the collar."
+    "Она схватила меня за воротник."
     
-    "And she proceeds to pull me into the buggy."
+    "И она же затянула меня в коляску."
     
-    j "Why are we going so fast!??"
+    j "Зачем ты так несешься!??"
     
     show m yelling
     with dissolve
     
-    m "Cuz, we only have 1 minute left!"
+    m "У нас одна минуа!"
     
-    m "Don't you want to save Gladys?!?"
+    m "Ты что не хочешь спасти Глэдис?!?"
     
-    "Do I?"
+    "Хочу ли я?"
     
-    "What am I thinking!  She didn't deserve to die!"
+    "О чем я только думаю! Она не заслуживает смерти!"
     
-    j "Yes!"
+    j "Да!"
     
-    "I nod to reaffirm my conviction to myself."
+    "Я кивнул закрепляя свою уверенность."
     
     scene bg bridge
     show m angry
     with dissolve
     
-    "We're speeding across the bridge."
+    "Мы неслись по мосту."
     
-    "Are we going too fast?"
+    "Не слишком ли быстро?"
     
-    j "Can you slow down just a bit?"
+    j "Ты не можешь ехать помедленнее?"
     
-    m "I don't know how!!!"
+    m "Я не знаю как!!!"
     
-    "....Oh crap..."
+    "....О черт..."
     
-    j "Wait, we're gonna hit that other buggy!"
+    j "Тормози, мы сейчас врежимся в коляску!"
     
     show m shocked
     with dissolve
     
-    m "AHHHH!!!!"
+    m "АААА!!!!"
     
-    "I grab the reins, and pull.  Hard."
+    "Я схватил поводья и потянул. Сильно."
     
     show bg bridge
     with vpunch
@@ -3708,48 +3731,48 @@ label start:
     with vpunch
     with hpunch
     
-    "We've averted almost certain death..."
+    "Мы чудом избежали верной смерти..."
     
     hide m shocked
     with dissolve
     
-    "Who was driving that other buggy?"
+    "Кто правил той коляской?"
     
-    "I look back to see where the other buggy is, yet the bridge is empty..."
+    "Я обернулся назад чтобы увидеть что мост пуст..."
     
     stop music
     
     "..."
     
-    "What time is it...?"
+    "Сколько времени...?"
     
     "......"
     
-    "I feel a cold shudder go through my body."
+    "Я почувствовал как по спине пробежал хоолодок."
     
-    "9:03 AM."
+    "9:03."
     
     play music "coldshiver.mp3"
     
-    j "Um, Mel...?"
+    j "Ммм, Мэлл...?"
     
     show m surprised
     with dissolve
     
     mslow "........"
     
-    "The buggy has stopped."
+    "Коляска остановилась."
     
-    j "Mel..."
+    j "Мэлл..."
     
     show m embarrassed
     with dissolve
     
-    m "That wasn't supposed to happen."
+    m "Этого не должно было произойти."
     
-    j "I know."
+    j "Я знаю."
     
-    m "It wasn't..."
+    m "Это не..."
     
     stop music
     
@@ -3759,21 +3782,21 @@ label start:
     hide m embarrassed
     with dissolve
     
-    j "Wait!"
+    j "Стой!"
     
-    "Godamnit, that woman..."
+    "Господи, эта женщина..."
     
     play sound "run.wav"
     scene bg street2
     with dissolve
     
-    j "Mel!"
+    j "Мэлл!"
     
     play sound "run.wav"
     scene bg alleyway2
     with dissolve
     
-    j "{size=+20}MEL!{/size}"
+    j "{size=+20}МЭЛЛ!{/size}"
     
     play sound "run.wav"
     scene bg street
@@ -3785,11 +3808,11 @@ label start:
     scene bg black
     with dissolve
     
-    "She's gone..."
+    "Она убежала..."
     
     play sound "rain01.mp3"
     
-    "And I stand here, in the rain."
+    "И вот я стою здесь. Под дождем."
     
     $ renpy.pause(1.0)
     
@@ -3807,126 +3830,127 @@ label start:
     
     play music "funeral.mp3"
     
-    "The rain pours outside."
+    "Снаружи льет дождь."
     
     play sound "rain01.mp3"
+
 
     scene bg cemetery
     with dissolve
     
-    "I see myself on the other side of this grave."
+    "Я вижу себя с другой стороны могилы."
     
-    "I pull my hood closer to my face."
+    "Я натянул капюшон сильнее."
     
-    "Who knows what could happen if I see myself..."
+    "Кто знает, что произойдет, если я увижу себя..."
     
-    "I take a glance around myself."
+    "Я посмотрел вокруг."
     
     "..."
     
     stop music
     play music "coldshiver.mp3"
     
-    "Wait, who's that?"
+    "Подождите, кто это там?"
     
-    "That can't be."
+    "Не может быть."
     
-    "She looks up at me."
+    "Она смотрит на меня."
     
-    "Her eyes catch my stare."
+    "Наши глаза встретились."
     
-    "But only for a moment."
+    "Но только на долю секунды."
     
     play sound "run.wav"
     
-    "She walks off across the cemetery."
+    "Она уходит через кладбище."
     
-    "I must stop her."
+    "Я должен остановить ее."
     
     play sound "run.wav"
     
     scene bg cemetery2
     with dissolve
     
-    j "Stop!"
+    j "Стой!"
     
-    jslow "........... {w=1} Gladys....."
+    jslow "........... {w=1} Глэдис....."
     
-    "The woman stops and turns."
+    "Женщина остановилась и обернулась."
     
     stop music
     play music "facade.mp3"
     
-    "It is her."
+    "Это она."
     
-    g "Hello, Josh."
+    g "Привет, Джош."
     
-    j "How...?"
+    j "Но как...?"
     
-    "Yet, somehow, in my mind, an explanation has already surfaced."
+    "Но где-то глубоко в душе я уже знал ответ на этот вопрос.."
     
-    g "It was all an act.  A farce.  That buggy that veered off the bridge was empty."
+    g "Все это была игра. Фарс. Коляска которая упала с моста была пустой."
     
-    "And, she'd been here all long.  {w=1}Safe. {w=1}And. {w=1}Alive."
+    "И она была здесь все это время  {w=1}Целая{w=1}И {w=1}Живая."
     
-    g "I've been here this whole time.  Safe, and alive."
+    g "Я здесь была все это время. В целости и сохранности."
     
-    "I feel bitter now.  A cold, unwelcome emotion is filling my heart."
+    "Я почувствовал горечь. Холодные, нежеланные эмоции заполнили сердце."
     
-    g "I'm sorry, Josh, but... I couldn't live under that system that we fell victim to."
+    g "Извини, Джош, но... я не хочу выступать жертвой той системы в которой мы жили."
     
-    "Well, neither could I, but did I selfishly escape?"
+    "Чтож, как и я, но я же эгоистично не сбежал?"
     
-    "Or was I just too weak to do what she did?"
+    "Или я просто был слишком слаб чтобы совершить тоже что и она?"
     
-    j "Sorry doesn't cut it.  I realized that I didn't love you.  No, I didn't."
+    j "Извинениями ничего не исправить. Я признаю, что я тебя не любил. Нет не любил."
     
-    j "However, I loved the fact that we were being married.  That I actually had a future that was certain.  You made that certain for me by pretending to play along with it."
+    j "Как бы то ни было, я любил саму идею нашего брака. Определенность моего будущего. Ты заставляла меня верить в это играя."
     
-    j "But, you've been lying this entire time."
+    j "И все это время ты лгала мне все это время."
     
-    "And so have I.  I've been lying to myself."
+    "Так же как и я. Я обманывал сам себя."
     
-    g "Well, I had to, in order to be with the one I loved.  I'm leaving tomorrow.  For France."
+    g "Мне пришлось чтобы быть с человеком которого я люблю. Я уезжаю завтра. Во Франциюe."
     
-    "She has an exit from this spiral."
+    "Она нашла выход из замкнутного круга."
     
-    g "I thought I'd bid you farewell, but I guess I almost chickened out."
+    g "Я хотела с тобой попрощаться раньше, но струсила."
     
-    "Where is my exit?"
+    "А где же мой выход?"
     
-    g "Thank you, really, and I'm so sorry for any misunderstandings I may have caused."
+    g "Спасибо тебе, правда. И я прошу прощения за все то недопонимание, что возникло между нами."
     
-    "Oh, you have no idea."
+    "О, ты даже не представляешь."
     
-    "She disappears down the cemetery path, along with the many other people now leaving the funeral."
+    "Она исчезла в глубине кладбища, затерявшись в толпе людей уходящих с похорон."
     
     stop music
     
-    "Now.  I have to find Mel."
+    "Теперь. Нужно найти Мэлл."
     
     play sound "rain01.mp3"
     scene bg street2
     with dissolve
     
-    "It is still raining."
+    "Все еще идет дождь."
     
-    "The street is almost empty."
+    "Улица почти опустела."
     
-    "I spot myself dodging stares and entering that alleyway."
+    "Я увидел как я прошел на аллею."
     
-    "I follow discreetly."
+    "Скрытно последовал за собой."
     
     scene bg alleyway2
     with dissolve
     
     slow "..."
     
-    "I never knew it would be possible to stalk myself..."
+    "Я никогда и предположить не мог, что однажды буду вот так шпионить за собой..."
     
-    "I hear the click of the door, and bring myself out from behind the corner."
+    "Я услышал щелчок двери и заставил себя выйти из-за угла."
     
-    "I peer into the window."
+    "Я уставился в окно."
     
     scene bg bar
     show m yelling
@@ -3938,17 +3962,17 @@ label start:
     hide m yelling
     with dissolve
     
-    "Now what..."
+    "Теперь что..."
     
-    "I can see myself, and my first encounter with Mel."
+    "Я вижу себя и мою первую встречу с Мэлл."
     
-    "I can see her."
+    "Я вижу ее."
     
-    "But I can't reach her."
+    "Но не могу к ней подойти."
     
     "..."
     
-    "No use in staying here if there's a chance of me being seen."
+    "Бессмысленно здесь стоять иначе меня могут увидеть."
     
     scene bg docks
     with dissolve
@@ -4289,4 +4313,3 @@ label start:
     with dissolve
     
     $ renpy.pause(5.0)
-</poem>
